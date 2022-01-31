@@ -24,8 +24,10 @@ ATaleFromAPastTale_WwiseProject/*_WwiseProject.*.validationcache
 ATaleFromAPastTale_WwiseProject/*_WwiseProject.*.wsettings
 ATaleFromAPastTale_WwiseProject/**/*.akd
 Plugins/Wwise
-
+ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks
+ATaleFromAPastTale_WwiseProject/Originals
 Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+Content/WwiseAudio
 
 WwiseUnityIntegration_*_Src.zip
 

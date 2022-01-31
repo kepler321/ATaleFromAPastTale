@@ -1,6 +1,261 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Ambiances" ID="{4C5A66E6-AFEB-484A-A158-8A76A77B6574}" ShortID="838302547">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Outdoors" ID="{C29F37BC-2193-4264-87CB-3D41B3E15251}" ShortID="126740572">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Crickets_owls_night" ID="{CF1185B5-51A3-4D8F-92B8-3A99A87752C0}" ShortID="491655490">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="05 Crickets_owls_summer night" ID="{628EDF31-437B-43E5-BC65-01CAA98E2E2E}">
+											<Language>SFX</Language>
+											<AudioFile>05 Crickets_owls_summer night.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="860874834"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="05 Crickets_owls_summer night" ID="{628EDF31-437B-43E5-BC65-01CAA98E2E2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="Crickets_owls_night" ID="{CF1185B5-51A3-4D8F-92B8-3A99A87752C0}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rain" ID="{963228FD-9D2B-4FC7-BBAC-B11031FC1697}" ShortID="293675531">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambience_Rain_Pouring-Long" ID="{F08DF199-B74D-4D09-8BC6-2B70BF17FC9B}" ShortID="839480157">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience_Rain_Pouring-Long" ID="{8A169B0A-D1FB-41E1-AF04-955AFF435EF6}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience_Rain_Pouring-Long.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="143843274"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience_Rain_Pouring-Long" ID="{8A169B0A-D1FB-41E1-AF04-955AFF435EF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="Ambience_Rain_Pouring-Long" ID="{F08DF199-B74D-4D09-8BC6-2B70BF17FC9B}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="Character" ID="{0358CCC0-1C39-410B-BBD4-68A90AC16F96}" ShortID="355500138">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Footstep" ID="{BC51A0A2-0AE8-42ED-B04A-544BF55FE71E}" ShortID="363788316">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0856EA14-BE82-4FC4-AD13-8991533CE377}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Metal1" ID="{CF7A1665-57F5-4F6D-9BBA-DBDB72A9A3D2}" ShortID="727651524">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>26</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 1" ID="{E4634D89-BDB1-43F1-88A8-636954433D17}">
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="274145608"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 1" ID="{E4634D89-BDB1-43F1-88A8-636954433D17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal2" ID="{27667B65-F4C7-460E-B3DF-D733F47EBA09}" ShortID="671912851">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 2" ID="{6D426E98-CE5E-47A7-9EAD-118E5F289D2D}">
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="227416975"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 2" ID="{6D426E98-CE5E-47A7-9EAD-118E5F289D2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal3" ID="{605A24FB-C628-499B-AFC4-42619E2DD099}" ShortID="797905309">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 3" ID="{9B2F7763-83B2-409A-976B-2DCC3175CD0A}">
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1034317858"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 3" ID="{9B2F7763-83B2-409A-976B-2DCC3175CD0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

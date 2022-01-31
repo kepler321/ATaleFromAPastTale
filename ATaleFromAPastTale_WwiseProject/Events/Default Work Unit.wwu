@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4423BB64-2842-4093-977E-829D38F4A0BD}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{4423BB64-2842-4093-977E-829D38F4A0BD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4423BB64-2842-4093-977E-829D38F4A0BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Outdoors" ID="{CC5DE33D-C1EC-4B78-A951-30D7B4A37832}">
+					<ChildrenList>
+						<Action Name="" ID="{9D0796B2-BA3A-434D-8DB1-6D0D0728750A}" ShortID="662087122">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outdoors" ID="{C29F37BC-2193-4264-87CB-3D41B3E15251}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rain" ID="{EA072656-DE10-4F4B-BCC2-265E08A979A1}">
+					<ChildrenList>
+						<Action Name="" ID="{9282814A-2892-4A26-9C82-C068E47CC409}" ShortID="483740548">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain" ID="{963228FD-9D2B-4FC7-BBAC-B11031FC1697}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footstep" ID="{869EC998-8EB7-4CAD-B5B2-8CC7C63804A5}">
+					<ChildrenList>
+						<Action Name="" ID="{78208476-711E-4B29-8A02-EFBB913348AB}" ShortID="301734534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep" ID="{BC51A0A2-0AE8-42ED-B04A-544BF55FE71E}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
