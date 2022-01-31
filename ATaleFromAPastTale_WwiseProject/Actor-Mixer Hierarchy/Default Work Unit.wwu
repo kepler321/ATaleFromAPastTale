@@ -20,12 +20,16 @@
 						<RandomSequenceContainer Name="Outdoors" ID="{C29F37BC-2193-4264-87CB-3D41B3E15251}" ShortID="126740572">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ForestAttenuation" ID="{D99A68B0-7855-4D6F-A814-2B139943D194}" WorkUnitID="{73BB414D-5DB5-40D9-B9C2-B51B15C6FA39}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 								</Reference>
@@ -45,6 +49,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="05 Crickets_owls_summer night" ID="{628EDF31-437B-43E5-BC65-01CAA98E2E2E}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="149.285925667032"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>05 Crickets_owls_summer night.WAV</AudioFile>
 											<MediaIDList>
@@ -67,6 +75,8 @@
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
