@@ -18,11 +18,12 @@ Saved
 ## ---------------- ##
 
 # project stuff
-WWiseProject/.cache/
-WWiseProject/*.prof
-WwiseProject/*_WwiseProject.*.validationcache
-WwiseProject/*_WwiseProject.*.wsettings
-WwiseProject/**/*.akd
+ATaleFromAPastTale_WwiseProject/.cache/
+ATaleFromAPastTale_WwiseProject/*.prof
+ATaleFromAPastTale_WwiseProject/*_WwiseProject.*.validationcache
+ATaleFromAPastTale_WwiseProject/*_WwiseProject.*.wsettings
+ATaleFromAPastTale_WwiseProject/**/*.akd
+Plugins/Wwise
 
 Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
 
