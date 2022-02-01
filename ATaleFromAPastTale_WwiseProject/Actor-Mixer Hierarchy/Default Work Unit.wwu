@@ -51,7 +51,6 @@
 										<AudioFileSource Name="05 Crickets_owls_summer night" ID="{628EDF31-437B-43E5-BC65-01CAA98E2E2E}">
 											<PropertyList>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="149.285925667032"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>05 Crickets_owls_summer night.WAV</AudioFile>
@@ -139,16 +138,16 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Footstep" ID="{BC51A0A2-0AE8-42ED-B04A-544BF55FE71E}" ShortID="363788316">
+						<SwitchContainer Name="Footstep" ID="{14BDBC5B-AF47-4541-9122-E2D499151DC3}" ShortID="873948617">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{0856EA14-BE82-4FC4-AD13-8991533CE377}">
+											<Modifier Name="" ID="{FE0CFCD8-F751-4638-B47C-3AFA85A1B642}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="200"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -159,22 +158,30 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{6BDE753F-B258-40DE-9430-6D93C80305BA}" WorkUnitID="{DC68BE31-C2BD-4792-9D6C-6E381135403F}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
 								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="SurfaceType" ID="{BA350780-C280-4E27-BFE8-6E5F0018AE22}" WorkUnitID="{DC68BE31-C2BD-4792-9D6C-6E381135403F}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Metal1" ID="{CF7A1665-57F5-4F6D-9BBA-DBDB72A9A3D2}" ShortID="727651524">
+								<RandomSequenceContainer Name="Metal" ID="{BC51A0A2-0AE8-42ED-B04A-544BF55FE71E}" ShortID="363788316">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>26</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Weight" Type="Real64">
-											<ValueList>
-												<Value>10</Value>
-											</ValueList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0856EA14-BE82-4FC4-AD13-8991533CE377}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -186,27 +193,105 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 1" ID="{E4634D89-BDB1-43F1-88A8-636954433D17}">
-											<Language>SFX</Language>
-											<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="274145608"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Metal1" ID="{CF7A1665-57F5-4F6D-9BBA-DBDB72A9A3D2}" ShortID="727651524">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>26</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 1" ID="{E4634D89-BDB1-43F1-88A8-636954433D17}">
+													<Language>SFX</Language>
+													<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="274145608"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 1" ID="{E4634D89-BDB1-43F1-88A8-636954433D17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Metal2" ID="{27667B65-F4C7-460E-B3DF-D733F47EBA09}" ShortID="671912851">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>90</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 2" ID="{6D426E98-CE5E-47A7-9EAD-118E5F289D2D}">
+													<Language>SFX</Language>
+													<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="227416975"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 2" ID="{6D426E98-CE5E-47A7-9EAD-118E5F289D2D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Metal3" ID="{605A24FB-C628-499B-AFC4-42619E2DD099}" ShortID="797905309">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>90</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 3" ID="{9B2F7763-83B2-409A-976B-2DCC3175CD0A}">
+													<Language>SFX</Language>
+													<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1034317858"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 3" ID="{9B2F7763-83B2-409A-976B-2DCC3175CD0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 1" ID="{E4634D89-BDB1-43F1-88A8-636954433D17}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Metal2" ID="{27667B65-F4C7-460E-B3DF-D733F47EBA09}" ShortID="671912851">
-									<PropertyList>
-										<Property Name="Weight" Type="Real64">
-											<ValueList>
-												<Value>90</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Wood" ID="{E6FDCDDD-2501-4E2E-B7D9-BAB914A428E2}" ShortID="193269774">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -216,52 +301,105 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 2" ID="{6D426E98-CE5E-47A7-9EAD-118E5F289D2D}">
-											<Language>SFX</Language>
-											<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="227416975"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="FOOTSTEP - Metal Board Walk Barefoot Male - 27" ID="{ADCAE285-BC32-4627-BD98-ECA85829AD59}" ShortID="1016649736">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOOTSTEP - Metal Board Walk Barefoot Male - 27" ID="{A674BF60-F6AC-4E6A-B4EE-81ECA11E5743}">
+													<Language>SFX</Language>
+													<AudioFile>FOOTSTEP - Metal Board Walk Barefoot Male - 27.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="4854777"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FOOTSTEP - Metal Board Walk Barefoot Male - 27" ID="{A674BF60-F6AC-4E6A-B4EE-81ECA11E5743}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOOTSTEP - Metal Board Walk Barefoot Male - 24" ID="{705C2F1C-0ABD-4D30-BFDC-B5A4A4F9DF46}" ShortID="82353549">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOOTSTEP - Metal Board Walk Barefoot Male - 24" ID="{3A371339-9FC8-4AE0-AD4F-88B4605BE9A8}">
+													<Language>SFX</Language>
+													<AudioFile>FOOTSTEP - Metal Board Walk Barefoot Male - 24.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="175057430"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FOOTSTEP - Metal Board Walk Barefoot Male - 24" ID="{3A371339-9FC8-4AE0-AD4F-88B4605BE9A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOOTSTEP - Metal Board Walk Barefoot Male - 2" ID="{227AF665-BF5C-4564-92E2-6DF06B337951}" ShortID="13873137">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOOTSTEP - Metal Board Walk Barefoot Male - 2" ID="{5C6EDE6E-E536-4A7B-A2CD-52A0E1C54611}">
+													<Language>SFX</Language>
+													<AudioFile>FOOTSTEP - Metal Board Walk Barefoot Male - 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123151356"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FOOTSTEP - Metal Board Walk Barefoot Male - 2" ID="{5C6EDE6E-E536-4A7B-A2CD-52A0E1C54611}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 2" ID="{6D426E98-CE5E-47A7-9EAD-118E5F289D2D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Metal3" ID="{605A24FB-C628-499B-AFC4-42619E2DD099}" ShortID="797905309">
-									<PropertyList>
-										<Property Name="Weight" Type="Real64">
-											<ValueList>
-												<Value>90</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 3" ID="{9B2F7763-83B2-409A-976B-2DCC3175CD0A}">
-											<Language>SFX</Language>
-											<AudioFile>FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1034317858"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="FOOTSTEP - Metal Plate Walk Barefoot Male - 3" ID="{9B2F7763-83B2-409A-976B-2DCC3175CD0A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
-						</RandomSequenceContainer>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Metal" ID="{BC51A0A2-0AE8-42ED-B04A-544BF55FE71E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Wood" ID="{E6FDCDDD-2501-4E2E-B7D9-BAB914A428E2}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{6BDE753F-B258-40DE-9430-6D93C80305BA}"/>
+										<ItemList>
+											<ItemRef Name="Metal" ID="{BC51A0A2-0AE8-42ED-B04A-544BF55FE71E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{98F9F5BD-39CF-48E8-980D-8F3C4671475D}"/>
+										<ItemList>
+											<ItemRef Name="Wood" ID="{E6FDCDDD-2501-4E2E-B7D9-BAB914A428E2}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
