@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1602358412	Play_Footstep			\Default Work Unit\Play_Footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	63790334	SurfaceType			\Default Work Unit\SurfaceType	
+
+Switch	ID	Name	Switch Group			Notes
+	712897245	Mud	SurfaceType			
+	1586158131	Kitchen	SurfaceType			
+	2058049674	Wood	SurfaceType			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	17221939	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footstep\Wood\Creak\Silence\Wwise Silence	
+	188549409	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footstep\Kitchen\Glass\Silence\Wwise Silence	
+

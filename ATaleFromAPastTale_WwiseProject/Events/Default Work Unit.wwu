@@ -59,7 +59,17 @@
 				<Event Name="Pictures" ID="{86C0840E-1F0A-4BF5-AAE7-7E116DC752E4}"/>
 				<Event Name="TV" ID="{45C49543-E64D-4A7E-B9D0-585A125E7C2C}"/>
 				<Event Name="CallName" ID="{B9C7B3F8-6FA7-40E5-9CE0-2646EE41F47A}"/>
-				<Event Name="PillBottle" ID="{55217109-FF9D-45DE-A19A-2325960572DA}"/>
+				<Event Name="PillBottle" ID="{55217109-FF9D-45DE-A19A-2325960572DA}">
+					<ChildrenList>
+						<Action Name="" ID="{9220C07C-9A7F-44FA-9C34-D8BB564E67F1}" ShortID="150871190">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_01" ID="{B6A26CD4-CB69-4CE3-B146-7E6B3B26AE09}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Flashback" ID="{7D0E2AE5-FB26-4877-A88F-B2777284AA6C}"/>
 				<Event Name="Knife" ID="{9C621894-7964-4F99-8D9E-43A7AFDA361F}"/>
 				<Event Name="Tree" ID="{276B15C5-27E6-44BC-9B61-406112894CA1}"/>

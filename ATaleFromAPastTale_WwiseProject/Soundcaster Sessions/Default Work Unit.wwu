@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Music" ID="{2F36D7A3-59F1-4A72-B075-62B1D8592A7A}">
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Close" ID="{408570DC-4CA1-466F-AB27-A457FF120D3A}"/>
+						<CurrentStateRef Name="None" ID="{F2F718F1-27E7-49FE-9A7C-BD89B06D90B0}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Kitchen" ID="{B95311A5-CCE8-44FA-81BF-C5868F8971CF}"/>

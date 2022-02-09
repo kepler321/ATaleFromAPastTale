@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/",
+   "SourceFilesRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/.cache/Windows/",
+   "SoundBanksRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Windows/English(US)/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "889871961",
+    "GUID": "{350A5E59-5E59-1E59-5959-595959595959}",
+    "Language": "English(US)",
+    "Hash": "1711951851",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_86F2E4A0A04A4CC992A8D01CF14C5136",
+    "ShortName": "SB_86F2E4A0A04A4CC992A8D01CF14C5136",
+    "Path": "English(US)/SB_86F2E4A0A04A4CC992A8D01CF14C5136.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3877475213",
+      "Name": "NAR_15",
+      "ObjectPath": "\\Events\\Voices\\NAR_15",
+      "GUID": "{86F2E4A0-A04A-4CC9-92A8-D01CF14C5136}",
+      "DurationType": "OneShot",
+      "DurationMin": "46.162857",
+      "DurationMax": "46.162857",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "370653189",
+        "Language": "English(US)",
+        "ShortName": "Bounced Files\\Tale_NAR 15-St.wav",
+        "Path": "Voices/English(US)/Bounced Files/Tale_NAR 15-St_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -3,20 +3,171 @@
 	<Events>
 		<WorkUnit Name="Voices" ID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="NAR_01" ID="{EB252F27-01DB-47B7-90D5-3DE2012BF98B}"/>
-				<Event Name="NAR_02" ID="{74F90254-55FF-4CE2-8277-9EC0C7DA42FF}"/>
-				<Event Name="NAR_03" ID="{0B498AEA-0F06-4CB2-9D88-CB26171348D7}"/>
-				<Event Name="NAR_04" ID="{B2FD7196-7A82-43AF-946A-D74DEBBE7D78}"/>
-				<Event Name="NAR_05" ID="{431F581C-DC04-4A3D-9D93-8B440FD6CDA3}"/>
-				<Event Name="NAR_06" ID="{B9AAD70F-CEFB-4B19-961A-E2337852BCC7}"/>
-				<Event Name="NAR_07" ID="{70E90699-8645-4144-B8EB-24FFBE228026}"/>
-				<Event Name="NAR_08" ID="{3AC4F0D2-4836-4631-ABE7-DB73B1FA2172}"/>
-				<Event Name="NAR_09" ID="{40D81661-8AF8-4DA6-B1C7-E02C621C8BE9}"/>
-				<Event Name="NAR_10" ID="{4B68B90E-3AE5-416F-9C8C-8510912D3AEC}"/>
-				<Event Name="NAR_11" ID="{E098EDF6-DA15-45CF-9609-BFFE81503522}"/>
-				<Event Name="NAR_12" ID="{0C51B24B-8D31-4E33-BECD-E8235FCB58EE}"/>
-				<Event Name="NAR_13" ID="{85136F7A-5A41-442B-8A70-B3EC0F672C65}"/>
-				<Event Name="NAR_14" ID="{BC42BFB2-4D6F-494B-B7A1-73EC959B576B}"/>
+				<Event Name="NAR_02" ID="{74F90254-55FF-4CE2-8277-9EC0C7DA42FF}">
+					<ChildrenList>
+						<Action Name="" ID="{0785F8EA-0ADF-450E-A66E-C3A42DC20DA0}" ShortID="526608005">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_02" ID="{A47C3970-9BA8-4029-BE67-17CC05EAA124}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_03" ID="{0B498AEA-0F06-4CB2-9D88-CB26171348D7}">
+					<ChildrenList>
+						<Action Name="" ID="{D2C5FF87-6D1A-46DC-91D0-8D6883A38884}" ShortID="917543478">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_03" ID="{0006F86D-B9D1-4163-9F4D-A2721594F035}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_04" ID="{B2FD7196-7A82-43AF-946A-D74DEBBE7D78}">
+					<ChildrenList>
+						<Action Name="" ID="{CB0E698B-8F8B-4A37-9A06-CC977D44C6A9}" ShortID="58883379">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_04" ID="{2C9B0620-84E3-4850-8F85-F90B7D82A3F4}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_05" ID="{431F581C-DC04-4A3D-9D93-8B440FD6CDA3}">
+					<ChildrenList>
+						<Action Name="" ID="{04ABC6BA-B87A-499B-A807-B70D2CD32A75}" ShortID="149997135">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_05" ID="{19D0C1DF-8914-4F1D-B1C3-2B9C1A575088}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_06" ID="{B9AAD70F-CEFB-4B19-961A-E2337852BCC7}">
+					<ChildrenList>
+						<Action Name="" ID="{C30E32C7-139F-4B2F-86F6-BA176114B268}" ShortID="139902609">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_06" ID="{BBD44BB5-F076-4374-95ED-7C39F2AF64E2}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_07" ID="{70E90699-8645-4144-B8EB-24FFBE228026}">
+					<ChildrenList>
+						<Action Name="" ID="{D2707AA8-C89C-46CF-B889-561EB114CB2E}" ShortID="806447168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_07" ID="{8E08B9EF-651E-4DAC-ACFF-9026733BDBA9}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_08" ID="{3AC4F0D2-4836-4631-ABE7-DB73B1FA2172}">
+					<ChildrenList>
+						<Action Name="" ID="{AD85474E-F5C4-4BFC-B9FD-AC4AA1CBA97F}" ShortID="193005887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_08" ID="{C6A8267B-6B5C-4057-8700-7E5B5AF4C72A}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_09" ID="{40D81661-8AF8-4DA6-B1C7-E02C621C8BE9}">
+					<ChildrenList>
+						<Action Name="" ID="{FE6D572C-9B8C-48E1-906B-C8660114D3D0}" ShortID="599781800">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_09" ID="{36E4AA8E-0325-4E0F-88CD-654AE6A6F4ED}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_10" ID="{4B68B90E-3AE5-416F-9C8C-8510912D3AEC}">
+					<ChildrenList>
+						<Action Name="" ID="{927891EB-7E5D-4116-A3A8-9066B0B34E44}" ShortID="864805995">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_10" ID="{2EAD49AA-299A-4372-8B39-81BECD707BB8}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_11" ID="{E098EDF6-DA15-45CF-9609-BFFE81503522}">
+					<ChildrenList>
+						<Action Name="" ID="{3E7A7448-1B0E-4F87-B626-798F07A8001D}" ShortID="1018348936">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_11" ID="{6E4826F5-59E1-4A43-9FE2-1442C139E8E5}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_12" ID="{0C51B24B-8D31-4E33-BECD-E8235FCB58EE}">
+					<ChildrenList>
+						<Action Name="" ID="{AA25CD5A-6E82-49C5-AD60-BD20D12EFD4A}" ShortID="1026300589">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_12" ID="{D5E98207-B918-479E-B3A8-4BD64754D5E1}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_13" ID="{85136F7A-5A41-442B-8A70-B3EC0F672C65}">
+					<ChildrenList>
+						<Action Name="" ID="{9B7BFA87-F1D6-4305-8060-446288850A85}" ShortID="128059075">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_13" ID="{82DA4612-84DD-4AB5-99D8-6C382AE44CF6}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_14" ID="{BC42BFB2-4D6F-494B-B7A1-73EC959B576B}">
+					<ChildrenList>
+						<Action Name="" ID="{BC29AD2F-F169-481F-8D5A-5BCF9FB3C340}" ShortID="165595456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_14" ID="{7E3E4BF1-25F5-471C-9B82-1C0882749FA8}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_15" ID="{86F2E4A0-A04A-4CC9-92A8-D01CF14C5136}">
+					<ChildrenList>
+						<Action Name="" ID="{F83B27EA-0AFE-4E82-8F70-E9A453F9AFDF}" ShortID="79872440">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_15" ID="{064B9273-6E9A-4859-B002-393705F06729}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NAR_01" ID="{46770F7B-ABB7-4EAA-B084-45412754BB1C}">
+					<ChildrenList>
+						<Action Name="" ID="{B94FD1FC-76AC-47F1-A5CE-4724D5F5F09B}" ShortID="309677834">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NAR_01" ID="{B6A26CD4-CB69-4CE3-B146-7E6B3B26AE09}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

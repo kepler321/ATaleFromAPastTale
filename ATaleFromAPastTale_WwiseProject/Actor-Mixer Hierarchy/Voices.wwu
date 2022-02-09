@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6EEE92AE-8067-4270-A538-23F513AC9742}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Voices" ID="{6EEE92AE-8067-4270-A538-23F513AC9742}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Narrator" ID="{87C87C4D-6E4D-4909-A2E3-7EC096A6E84E}" ShortID="694958788">
+					<ChildrenList>
+						<Sound Name="NAR_02" ID="{A47C3970-9BA8-4029-BE67-17CC05EAA124}" ShortID="133976221">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 2-St" ID="{AE8895F5-CCAA-48BB-B298-F456F431BF35}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 2-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="351638769"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 2-St" ID="{AE8895F5-CCAA-48BB-B298-F456F431BF35}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_09" ID="{36E4AA8E-0325-4E0F-88CD-654AE6A6F4ED}" ShortID="147079635">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 9-St" ID="{A56CA182-3B49-45C6-A58F-7E4EBDFA6636}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 9-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="982427988"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 9-St" ID="{A56CA182-3B49-45C6-A58F-7E4EBDFA6636}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_05" ID="{19D0C1DF-8914-4F1D-B1C3-2B9C1A575088}" ShortID="709282897">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 5-St" ID="{03D860F9-E29C-4C9C-A4CB-E90A08F46086}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 5-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="891510275"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 5-St" ID="{03D860F9-E29C-4C9C-A4CB-E90A08F46086}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_03" ID="{0006F86D-B9D1-4163-9F4D-A2721594F035}" ShortID="381601321">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 3-St" ID="{F7AB9D4F-875D-457F-AA96-CB2F7C224FCF}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 3-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="507552371"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 3-St" ID="{F7AB9D4F-875D-457F-AA96-CB2F7C224FCF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_14" ID="{7E3E4BF1-25F5-471C-9B82-1C0882749FA8}" ShortID="562831225">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 14-St" ID="{17C60FAC-79E2-4E53-AB05-1AC9F10A9E93}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 14-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="484381587"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 14-St" ID="{17C60FAC-79E2-4E53-AB05-1AC9F10A9E93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_15" ID="{064B9273-6E9A-4859-B002-393705F06729}" ShortID="852133173">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 15-St" ID="{CA412E4D-03CB-4A0C-97CC-1C1E60197D16}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 15-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="370653189"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 15-St" ID="{CA412E4D-03CB-4A0C-97CC-1C1E60197D16}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_11" ID="{6E4826F5-59E1-4A43-9FE2-1442C139E8E5}" ShortID="1041852974">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 11-St" ID="{6928AABB-EE53-4272-9D1F-3ADB4FBFA1DE}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 11-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="789747456"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 11-St" ID="{6928AABB-EE53-4272-9D1F-3ADB4FBFA1DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_13" ID="{82DA4612-84DD-4AB5-99D8-6C382AE44CF6}" ShortID="670169291">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 13-St" ID="{3B81B608-5EF3-41CC-A59F-1CECAFD83843}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 13-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="880679846"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 13-St" ID="{3B81B608-5EF3-41CC-A59F-1CECAFD83843}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_04" ID="{2C9B0620-84E3-4850-8F85-F90B7D82A3F4}" ShortID="776147152">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 4-St" ID="{5564FB39-96AD-47EC-B195-5AFB8E9BF56F}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 4-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="314282282"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 4-St" ID="{5564FB39-96AD-47EC-B195-5AFB8E9BF56F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_12" ID="{D5E98207-B918-479E-B3A8-4BD64754D5E1}" ShortID="958720982">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 12-St" ID="{4FF0C746-758E-47E6-916B-A7DD43AEF6B6}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 12-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="916671488"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 12-St" ID="{4FF0C746-758E-47E6-916B-A7DD43AEF6B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_08" ID="{C6A8267B-6B5C-4057-8700-7E5B5AF4C72A}" ShortID="464969914">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 8-St" ID="{34E7A8E0-6E33-4C48-B569-AF3388F2EA83}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 8-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81998532"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 8-St" ID="{34E7A8E0-6E33-4C48-B569-AF3388F2EA83}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_01" ID="{B6A26CD4-CB69-4CE3-B146-7E6B3B26AE09}" ShortID="250304305">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 1-St" ID="{C4EEE05F-7A5A-45B1-8BDF-A912BBA7ECE2}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 1-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="252904542"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 1-St" ID="{C4EEE05F-7A5A-45B1-8BDF-A912BBA7ECE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_07" ID="{8E08B9EF-651E-4DAC-ACFF-9026733BDBA9}" ShortID="440117687">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 7-St" ID="{8E5F3544-7537-4E24-85B4-2324876F4680}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 7-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="705448239"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 7-St" ID="{8E5F3544-7537-4E24-85B4-2324876F4680}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_06" ID="{BBD44BB5-F076-4374-95ED-7C39F2AF64E2}" ShortID="76304997">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 6-St" ID="{72F91E5F-CEB9-4E76-B29A-5E89C8FAD607}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 6-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="653558830"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 6-St" ID="{72F91E5F-CEB9-4E76-B29A-5E89C8FAD607}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NAR_10" ID="{2EAD49AA-299A-4372-8B39-81BECD707BB8}" ShortID="527337917">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tale_NAR 10-St" ID="{8A156F59-6DE0-4F10-B027-1F06FE74D7DB}">
+									<Language>English(US)</Language>
+									<AudioFile>Bounced Files\Tale_NAR 10-St.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="230045505"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tale_NAR 10-St" ID="{8A156F59-6DE0-4F10-B027-1F06FE74D7DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Tale_GPA01-St" ID="{CBF6C584-C3A5-4C53-8717-EBBA9118C665}" ShortID="743647004">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tale_GPA01-St" ID="{F8FE311A-6E7C-4E31-8221-763732F4D749}">
+							<Language>English(US)</Language>
+							<AudioFile>Bounced Files\Tale_GPA01-St.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="12931436"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Tale_GPA01-St" ID="{F8FE311A-6E7C-4E31-8221-763732F4D749}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tale_RAD01-St" ID="{60290BF1-72B5-4523-BF09-0E06F2E366AC}" ShortID="276430649">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tale_RAD01-St" ID="{01AA8040-4627-4525-8907-6E656AC74F98}">
+							<Language>English(US)</Language>
+							<AudioFile>Bounced Files\Tale_RAD01-St.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="542636750"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Tale_RAD01-St" ID="{01AA8040-4627-4525-8907-6E656AC74F98}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tale_WOM01-St" ID="{55953048-BB3C-442A-877D-9775E0643084}" ShortID="1044575727">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tale_WOM01-St" ID="{3D5A0229-B05D-4FF5-BEAE-E8986A0FE8B4}">
+							<Language>English(US)</Language>
+							<AudioFile>Bounced Files\Tale_WOM01-St.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="968611015"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Tale_WOM01-St" ID="{3D5A0229-B05D-4FF5-BEAE-E8986A0FE8B4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tale_MOU-St" ID="{B94D5281-467F-4109-8186-7EBEE146A392}" ShortID="406055787">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tale_MOU-St" ID="{7D8BD479-2E5A-4853-927C-9DE956F2A4F4}">
+							<Language>English(US)</Language>
+							<AudioFile>Bounced Files\Tale_MOU-St.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="985366673"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Tale_MOU-St" ID="{7D8BD479-2E5A-4853-927C-9DE956F2A4F4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tale_HIDENSEEK-St" ID="{300B19C3-7194-4270-BA64-1B2B1F07C9DE}" ShortID="186333235">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tale_HIDENSEEK-St" ID="{172BE8B6-94B1-4FD8-9EF0-5F56FAB3EDD9}">
+							<Language>English(US)</Language>
+							<AudioFile>Bounced Files\Tale_HIDENSEEK-St.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="816020626"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Tale_HIDENSEEK-St" ID="{172BE8B6-94B1-4FD8-9EF0-5F56FAB3EDD9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

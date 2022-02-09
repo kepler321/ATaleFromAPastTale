@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3877475213	NAR_15			\Voices\NAR_15	
+

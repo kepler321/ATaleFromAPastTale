@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3894252920	NAR_03			\Voices\NAR_03	
+

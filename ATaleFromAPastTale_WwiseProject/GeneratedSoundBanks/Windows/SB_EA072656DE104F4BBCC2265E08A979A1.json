@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/",
+   "SourceFilesRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/.cache/Windows/",
+   "SoundBanksRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Windows/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1316724099",
+    "GUID": "{4E7B9D83-9D83-1D83-8383-838383838383}",
+    "Language": "SFX",
+    "Hash": "4075430187",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_EA072656DE104F4BBCC2265E08A979A1",
+    "ShortName": "SB_EA072656DE104F4BBCC2265E08A979A1",
+    "Path": "SB_EA072656DE104F4BBCC2265E08A979A1.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2838936948",
+      "Name": "Play_Rain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Rain",
+      "GUID": "{EA072656-DE10-4F4B-BCC2-265E08A979A1}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "143843274",
+        "Language": "SFX",
+        "ShortName": "Ambience_Rain_Pouring-Long.wav",
+        "Path": "SFX/Ambience_Rain_Pouring-Long_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
