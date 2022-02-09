@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{762723DA-5A7F-4C35-A835-DB9ED5A2ECB3}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Music" ID="{762723DA-5A7F-4C35-A835-DB9ED5A2ECB3}" PersistMode="Standalone">
-			<ChildrenList>
-				<Event Name="SetDrums" ID="{EA05D0EF-239E-4C21-9C5C-4EBF61B86379}">
-					<ChildrenList>
-						<Action Name="" ID="{1A815DF8-5549-4368-B3BC-5100A1470943}" ShortID="75484286">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="12"/>
-								<Property Name="FadeTime" Type="Real64" Value="6.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Drums" ID="{0E607A07-3309-4670-9110-3EBE5E005F89}" WorkUnitID="{F0C2E699-5C10-42AB-88FA-8402133DFAD1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Music" ID="{762723DA-5A7F-4C35-A835-DB9ED5A2ECB3}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

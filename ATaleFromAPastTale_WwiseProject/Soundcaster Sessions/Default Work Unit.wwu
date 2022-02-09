@@ -4,12 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{FA430CB6-EB77-493C-86D6-60A57857A9EF}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Music" ID="{2F36D7A3-59F1-4A72-B075-62B1D8592A7A}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="SetDrums" ID="{EA05D0EF-239E-4C21-9C5C-4EBF61B86379}" WorkUnitID="{762723DA-5A7F-4C35-A835-DB9ED5A2ECB3}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Close" ID="{408570DC-4CA1-466F-AB27-A457FF120D3A}"/>

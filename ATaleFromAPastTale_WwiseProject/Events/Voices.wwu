@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Voices" ID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="NAR_01" ID="{EB252F27-01DB-47B7-90D5-3DE2012BF98B}"/>
+				<Event Name="NAR_02" ID="{74F90254-55FF-4CE2-8277-9EC0C7DA42FF}"/>
+				<Event Name="NAR_03" ID="{0B498AEA-0F06-4CB2-9D88-CB26171348D7}"/>
+				<Event Name="NAR_04" ID="{B2FD7196-7A82-43AF-946A-D74DEBBE7D78}"/>
+				<Event Name="NAR_05" ID="{431F581C-DC04-4A3D-9D93-8B440FD6CDA3}"/>
+				<Event Name="NAR_06" ID="{B9AAD70F-CEFB-4B19-961A-E2337852BCC7}"/>
+				<Event Name="NAR_07" ID="{70E90699-8645-4144-B8EB-24FFBE228026}"/>
+				<Event Name="NAR_08" ID="{3AC4F0D2-4836-4631-ABE7-DB73B1FA2172}"/>
+				<Event Name="NAR_09" ID="{40D81661-8AF8-4DA6-B1C7-E02C621C8BE9}"/>
+				<Event Name="NAR_10" ID="{4B68B90E-3AE5-416F-9C8C-8510912D3AEC}"/>
+				<Event Name="NAR_11" ID="{E098EDF6-DA15-45CF-9609-BFFE81503522}"/>
+				<Event Name="NAR_12" ID="{0C51B24B-8D31-4E33-BECD-E8235FCB58EE}"/>
+				<Event Name="NAR_13" ID="{85136F7A-5A41-442B-8A70-B3EC0F672C65}"/>
+				<Event Name="NAR_14" ID="{BC42BFB2-4D6F-494B-B7A1-73EC959B576B}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
