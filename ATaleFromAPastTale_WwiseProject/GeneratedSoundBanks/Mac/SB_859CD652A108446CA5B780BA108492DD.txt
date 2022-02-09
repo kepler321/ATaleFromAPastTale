@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3513959040	LPFRainOn			\Default Work Unit\LPFRainOn	
+

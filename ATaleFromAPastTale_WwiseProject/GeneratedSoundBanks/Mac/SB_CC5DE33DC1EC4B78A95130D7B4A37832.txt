@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1855645157	Play_Outdoors			\Default Work Unit\Play_Outdoors	
+

@@ -1,0 +1,38 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/",
+   "SourceFilesRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/.cache/Mac/",
+   "SoundBanksRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Mac/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1783085538",
+    "GUID": "{6A47B9E2-B9E2-19E2-E2E2-E2E2E2E2E2E2}",
+    "Language": "SFX",
+    "Hash": "2407747796",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_3912DC58AE8548CCBA86B4F0BBE045D0",
+    "ShortName": "SB_3912DC58AE8548CCBA86B4F0BBE045D0",
+    "Path": "SB_3912DC58AE8548CCBA86B4F0BBE045D0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1527017221",
+      "Name": "HideNSeek",
+      "ObjectPath": "\\Events\\Default Work Unit\\HideNSeek",
+      "GUID": "{3912DC58-AE85-48CC-BA86-B4F0BBE045D0}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   }
+  ]
+ }
+}

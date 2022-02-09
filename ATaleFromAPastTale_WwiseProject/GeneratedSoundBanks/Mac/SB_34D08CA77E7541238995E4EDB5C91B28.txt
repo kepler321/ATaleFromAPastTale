@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	251412244	Shoe			\Default Work Unit\Shoe	
+

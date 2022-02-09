@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/",
+   "SourceFilesRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/.cache/Windows/",
+   "SoundBanksRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Windows/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1424374124",
+    "GUID": "{54E6396C-396C-196C-6C6C-6C6C6C6C6C6C}",
+    "Language": "SFX",
+    "Hash": "429191295",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_CC5DE33DC1EC4B78A95130D7B4A37832",
+    "ShortName": "SB_CC5DE33DC1EC4B78A95130D7B4A37832",
+    "Path": "SB_CC5DE33DC1EC4B78A95130D7B4A37832.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1855645157",
+      "Name": "Play_Outdoors",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Outdoors",
+      "GUID": "{CC5DE33D-C1EC-4B78-A951-30D7B4A37832}",
+      "MaxAttenuation": "10000.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "860874834",
+        "Language": "SFX",
+        "ShortName": "05 Crickets_owls_summer night.WAV",
+        "Path": "SFX/05 Crickets_owls_summer night_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

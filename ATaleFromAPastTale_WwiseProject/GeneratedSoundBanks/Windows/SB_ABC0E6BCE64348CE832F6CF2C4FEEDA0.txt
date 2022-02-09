@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	171820398	WOM_01			\Default Work Unit\WOM_01	
+

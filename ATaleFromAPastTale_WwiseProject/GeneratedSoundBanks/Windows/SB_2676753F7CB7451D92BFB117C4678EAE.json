@@ -1,0 +1,38 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/",
+   "SourceFilesRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/.cache/Windows/",
+   "SoundBanksRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Windows/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/luiszoran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/UnrealProjects/ATaleFromAPastTale/ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks/Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3618877053",
+    "GUID": "{D7B3AE7D-AE7D-1E7D-7D7D-7D7D7D7D7D7D}",
+    "Language": "SFX",
+    "Hash": "1170782664",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2676753F7CB7451D92BFB117C4678EAE",
+    "ShortName": "SB_2676753F7CB7451D92BFB117C4678EAE",
+    "Path": "SB_2676753F7CB7451D92BFB117C4678EAE.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2561444246",
+      "Name": "FadeIn",
+      "ObjectPath": "\\Events\\Default Work Unit\\FadeIn",
+      "GUID": "{2676753F-7CB7-451D-92BF-B117C4678EAE}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   }
+  ]
+ }
+}
