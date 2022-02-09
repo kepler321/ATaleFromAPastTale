@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DC68BE31-C2BD-4792-9D6C-6E381135403F}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{DC68BE31-C2BD-4792-9D6C-6E381135403F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SurfaceType" ID="{BA350780-C280-4E27-BFE8-6E5F0018AE22}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Mud" ID="{6BDE753F-B258-40DE-9430-6D93C80305BA}"/>
+						<Switch Name="Wood" ID="{98F9F5BD-39CF-48E8-980D-8F3C4671475D}"/>
+						<Switch Name="Kitchen" ID="{B95311A5-CCE8-44FA-81BF-C5868F8971CF}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

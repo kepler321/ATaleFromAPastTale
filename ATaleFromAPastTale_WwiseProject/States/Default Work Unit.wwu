@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{17DA23AD-CDFA-4E3C-8BBD-B00C937B2EA0}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{17DA23AD-CDFA-4E3C-8BBD-B00C937B2EA0}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="EndDistance" ID="{DE247139-31F9-49C2-80E2-9BE788912914}">
+					<ChildrenList>
+						<State Name="None" ID="{F2F718F1-27E7-49FE-9A7C-BD89B06D90B0}"/>
+						<State Name="Far" ID="{61D5BD5D-A25A-433C-89C5-904C2540A11C}"/>
+						<State Name="Close" ID="{408570DC-4CA1-466F-AB27-A457FF120D3A}"/>
+						<State Name="Near" ID="{10012253-F100-4EF2-BC01-B0CF1506B906}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

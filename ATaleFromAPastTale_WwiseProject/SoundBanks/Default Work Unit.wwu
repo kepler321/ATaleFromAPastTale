@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4FB67098-C52B-4090-8DF3-1ED723BDE1C5}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{4FB67098-C52B-4090-8DF3-1ED723BDE1C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainBank" ID="{D2ED62F5-3330-4494-8069-A0A5FF1C077C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Outdoors" ID="{CC5DE33D-C1EC-4B78-A951-30D7B4A37832}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footstep" ID="{869EC998-8EB7-4CAD-B5B2-8CC7C63804A5}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rain" ID="{EA072656-DE10-4F4B-BCC2-265E08A979A1}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
