@@ -3,11 +3,28 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{4FB67098-C52B-4090-8DF3-1ED723BDE1C5}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="MainBank" ID="{D2ED62F5-3330-4494-8069-A0A5FF1C077C}">
+				<SoundBank Name="MainBank" ID="{3B5DF583-8F3A-4086-92BC-4B8607E25544}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Outdoors" ID="{CC5DE33D-C1EC-4B78-A951-30D7B4A37832}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Footstep" ID="{869EC998-8EB7-4CAD-B5B2-8CC7C63804A5}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Rain" ID="{EA072656-DE10-4F4B-BCC2-265E08A979A1}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Items" ID="{4C57D70F-E121-460C-A130-04B0A8DB8AF1}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Character" ID="{2E7BE4BE-5330-4844-9A14-2938F8638184}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Paths" ID="{15978F72-4ED8-49F6-9C35-F5C635EE7ECB}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fades" ID="{F589CEE5-B8F8-4BA7-B72B-FEFD96DCA684}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire" ID="{10126488-4AA4-4D03-8902-B45F52720C71}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="VoicesBank" ID="{485EAAAC-F153-4E5E-B8B6-0851893C6805}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Voices" ID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambiances" ID="{ACB308E6-5DD8-485B-A90F-2A8263C9A7EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Rain" ID="{8802BDF6-B9C2-4929-A3D6-E760BD466BC5}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiances" ID="{38B9EEA1-924F-4FCD-9303-F0AFEE8471CE}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

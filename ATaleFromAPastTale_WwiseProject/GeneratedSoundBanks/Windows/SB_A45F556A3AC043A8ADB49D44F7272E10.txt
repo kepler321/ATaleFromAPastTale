@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	670602580	Sofa			\Default Work Unit\Sofa	
-
