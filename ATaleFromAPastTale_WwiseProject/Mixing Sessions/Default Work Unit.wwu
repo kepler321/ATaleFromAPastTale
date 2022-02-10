@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{12412690-C551-48F9-8701-EC0CED23FB5F}" SchemaVersion="103">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{12412690-C551-48F9-8701-EC0CED23FB5F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{12412690-C551-48F9-8701-EC0CED23FB5F}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="SFX" ID="{2D6B4A60-DB05-4818-B416-883B6F4227B2}">
+					<ObjectList>
+						<ObjectRef Name="Main" ID="{84BC55B3-3214-4A02-863E-CEAF70044DD2}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						<ObjectRef Name="Items" ID="{5D6E802A-3F73-4980-98DF-E3EAA2F9E5AC}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						<ObjectRef Name="Voices" ID="{EC82B187-6850-4FAE-B5BF-537322974CEE}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						<ObjectRef Name="Secondary" ID="{AF57BD23-71F3-4DF4-B563-B317AAC38FA7}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						<ObjectRef Name="Ambiances" ID="{21999C21-7FB5-4DE3-BC1E-8261DAC048F6}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						<ObjectRef Name="Footsteps" ID="{553B4D76-534B-446D-88EA-EF7699B31F2E}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						<ObjectRef Name="RoomReverb" ID="{D5A469E5-BCC0-4235-BF51-138C9669CDD5}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

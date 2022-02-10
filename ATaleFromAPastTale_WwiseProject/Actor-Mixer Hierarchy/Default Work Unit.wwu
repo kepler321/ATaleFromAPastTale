@@ -7,6 +7,7 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1219,6 +1220,7 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -3291,6 +3293,7 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="1"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

@@ -11,6 +11,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Secondary" ID="{AF57BD23-71F3-4DF4-B563-B317AAC38FA7}">
+							<ReferenceList>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Gain (Custom)" ID="{EF31AB16-A025-4B1B-A350-864043D81BA6}" ShortID="432147513" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Footsteps" ID="{553B4D76-534B-446D-88EA-EF7699B31F2E}">
 									<PropertyList>
@@ -32,6 +39,13 @@
 											</ValueList>
 										</Property>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect1">
+											<Custom>
+												<Effect Name="Wwise Gain (Custom)" ID="{9A45B7E5-0E16-4B76-AACE-C6FDFBF8316E}" ShortID="927440066" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Ambiances" ID="{21999C21-7FB5-4DE3-BC1E-8261DAC048F6}">
@@ -39,6 +53,13 @@
 										<Property Name="Color" Type="int16" Value="4"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect1">
+											<Custom>
+												<Effect Name="Wwise Gain (Custom)" ID="{0D7384EC-9164-46D9-9E11-389395E09DDD}" ShortID="20903144" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
@@ -48,19 +69,45 @@
 							<PropertyList>
 								<Property Name="MaxDuckVolume" Type="Real64" Value="-25"/>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Gain (Custom)" ID="{6E08EE59-4869-4938-8874-4718E5B3680F}" ShortID="349503584" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Items" ID="{5D6E802A-3F73-4980-98DF-E3EAA2F9E5AC}">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="1"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect1">
+											<Custom>
+												<Effect Name="Wwise Gain (Custom)" ID="{E4F6B6E8-7065-4839-A993-C552791AC877}" ShortID="293733597" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Voices" ID="{EC82B187-6850-4FAE-B5BF-537322974CEE}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="11"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect1">
+											<Custom>
+												<Effect Name="Wwise Gain (Custom)" ID="{02C14FD6-F20C-4264-BDCD-71C2C313895C}" ShortID="285006320" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
@@ -77,6 +124,14 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
+						<AuxBus Name="RoomReverb" ID="{D5A469E5-BCC0-4235-BF51-138C9669CDD5}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>

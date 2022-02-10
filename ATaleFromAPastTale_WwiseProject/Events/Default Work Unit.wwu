@@ -211,8 +211,45 @@
 					<ChildrenList>
 						<Event Name="FadeOut" ID="{4EAE6C8F-FDAA-4F42-A1C1-FAB13C3A15CD}"/>
 						<Event Name="FadeIn" ID="{2676753F-7CB7-451D-92BF-B117C4678EAE}"/>
-						<Event Name="LPFRainOff" ID="{0F71EDC2-F554-4E2C-A167-C979D563919D}"/>
-						<Event Name="LPFRainOn" ID="{859CD652-A108-446C-A5B7-80BA108492DD}"/>
+						<Event Name="FilterAmbOff" ID="{0F71EDC2-F554-4E2C-A167-C979D563919D}">
+							<ChildrenList>
+								<Action Name="" ID="{1A14B3A4-38FB-4408-BB5D-4B5198752551}" ShortID="909065255">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiances" ID="{21999C21-7FB5-4DE3-BC1E-8261DAC048F6}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FilterAmbOn" ID="{859CD652-A108-446C-A5B7-80BA108492DD}">
+							<ChildrenList>
+								<Action Name="" ID="{24A0B51F-A1A7-4F7A-B1DB-61FE3F7EEC70}" ShortID="866359810">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{863C1B88-D626-4696-8C92-618B97828346}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16" Value="65"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiances" ID="{21999C21-7FB5-4DE3-BC1E-8261DAC048F6}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Flashback" ID="{7D0E2AE5-FB26-4877-A88F-B2777284AA6C}"/>
 					</ChildrenList>
 				</Folder>

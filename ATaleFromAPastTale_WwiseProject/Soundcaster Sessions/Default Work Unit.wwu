@@ -18,8 +18,16 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="FilterAmbOff" ID="{0F71EDC2-F554-4E2C-A167-C979D563919D}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Rain" ID="{8802BDF6-B9C2-4929-A3D6-E760BD466BC5}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FilterAmbOn" ID="{859CD652-A108-446C-A5B7-80BA108492DD}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="NAR_01" ID="{46770F7B-ABB7-4EAA-B084-45412754BB1C}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
