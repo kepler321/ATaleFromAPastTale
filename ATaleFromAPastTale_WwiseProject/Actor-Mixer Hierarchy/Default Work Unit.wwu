@@ -13,7 +13,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+							<ObjectRef Name="Ambiances" ID="{21999C21-7FB5-4DE3-BC1E-8261DAC048F6}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1231,6 +1231,7 @@
 					<ChildrenList>
 						<SwitchContainer Name="Footstep" ID="{14BDBC5B-AF47-4541-9122-E2D499151DC3}" ShortID="873948617">
 							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1253,7 +1254,7 @@
 									<ObjectRef Name="Mud" ID="{6BDE753F-B258-40DE-9430-6D93C80305BA}" WorkUnitID="{DC68BE31-C2BD-4792-9D6C-6E381135403F}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+									<ObjectRef Name="Footsteps" ID="{553B4D76-534B-446D-88EA-EF7699B31F2E}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="SurfaceType" ID="{BA350780-C280-4E27-BFE8-6E5F0018AE22}" WorkUnitID="{DC68BE31-C2BD-4792-9D6C-6E381135403F}"/>
@@ -3296,7 +3297,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+							<ObjectRef Name="Items" ID="{5D6E802A-3F73-4980-98DF-E3EAA2F9E5AC}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

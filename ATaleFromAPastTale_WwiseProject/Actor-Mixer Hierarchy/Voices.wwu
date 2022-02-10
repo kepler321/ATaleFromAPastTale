@@ -3,638 +3,655 @@
 	<AudioObjects>
 		<WorkUnit Name="Voices" ID="{6EEE92AE-8067-4270-A538-23F513AC9742}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Narrator" ID="{87C87C4D-6E4D-4909-A2E3-7EC096A6E84E}" ShortID="694958788">
+				<ActorMixer Name="Voices" ID="{295C48D8-DC09-41C1-8809-F0EFAB3B7750}" ShortID="799015904">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="Color" Type="int16" Value="12"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voices" ID="{EC82B187-6850-4FAE-B5BF-537322974CEE}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+						</Reference>
+					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="NAR_02" ID="{A47C3970-9BA8-4029-BE67-17CC05EAA124}" ShortID="133976221">
+						<Folder Name="Narrator" ID="{87C87C4D-6E4D-4909-A2E3-7EC096A6E84E}" ShortID="694958788">
 							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="NAR_02" ID="{38649BE7-EB3C-4368-B233-4B7D355EE5D8}">
+								<Sound Name="NAR_02" ID="{A47C3970-9BA8-4029-BE67-17CC05EAA124}" ShortID="133976221">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="348762418"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_02" ID="{38649BE7-EB3C-4368-B233-4B7D355EE5D8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_09" ID="{36E4AA8E-0325-4E0F-88CD-654AE6A6F4ED}" ShortID="147079635">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_09" ID="{15BA6C76-4D2F-44BC-A64B-40BF3BC55637}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_02" ID="{38649BE7-EB3C-4368-B233-4B7D355EE5D8}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="348762418"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_02" ID="{38649BE7-EB3C-4368-B233-4B7D355EE5D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_09" ID="{36E4AA8E-0325-4E0F-88CD-654AE6A6F4ED}" ShortID="147079635">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_09.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1003277442"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_09" ID="{15BA6C76-4D2F-44BC-A64B-40BF3BC55637}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_05" ID="{19D0C1DF-8914-4F1D-B1C3-2B9C1A575088}" ShortID="709282897">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_05" ID="{9A1C0699-4F30-4B53-A895-15A97622675F}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_09" ID="{15BA6C76-4D2F-44BC-A64B-40BF3BC55637}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1003277442"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_09" ID="{15BA6C76-4D2F-44BC-A64B-40BF3BC55637}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_05" ID="{19D0C1DF-8914-4F1D-B1C3-2B9C1A575088}" ShortID="709282897">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_05.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="409672515"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_05" ID="{9A1C0699-4F30-4B53-A895-15A97622675F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_03" ID="{0006F86D-B9D1-4163-9F4D-A2721594F035}" ShortID="381601321">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_03" ID="{A20F7603-835A-4348-8170-5BC7504C9800}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_05" ID="{9A1C0699-4F30-4B53-A895-15A97622675F}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="409672515"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_05" ID="{9A1C0699-4F30-4B53-A895-15A97622675F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_03" ID="{0006F86D-B9D1-4163-9F4D-A2721594F035}" ShortID="381601321">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_03.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="449142338"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_03" ID="{A20F7603-835A-4348-8170-5BC7504C9800}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_14" ID="{7E3E4BF1-25F5-471C-9B82-1C0882749FA8}" ShortID="562831225">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_14" ID="{815BB2FE-6340-43D4-9F16-9719E5012265}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_03" ID="{A20F7603-835A-4348-8170-5BC7504C9800}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449142338"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_03" ID="{A20F7603-835A-4348-8170-5BC7504C9800}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_14" ID="{7E3E4BF1-25F5-471C-9B82-1C0882749FA8}" ShortID="562831225">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_14.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="446175996"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_14" ID="{815BB2FE-6340-43D4-9F16-9719E5012265}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_15" ID="{064B9273-6E9A-4859-B002-393705F06729}" ShortID="852133173">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_15" ID="{2CB3794B-A6A1-44BF-91B0-12AAC0FC4A5F}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_14" ID="{815BB2FE-6340-43D4-9F16-9719E5012265}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="446175996"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_14" ID="{815BB2FE-6340-43D4-9F16-9719E5012265}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_15" ID="{064B9273-6E9A-4859-B002-393705F06729}" ShortID="852133173">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_15.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="296116212"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_15" ID="{2CB3794B-A6A1-44BF-91B0-12AAC0FC4A5F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_11" ID="{6E4826F5-59E1-4A43-9FE2-1442C139E8E5}" ShortID="1041852974">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_11" ID="{0700AF6E-170E-4664-811D-6CDCD14B961F}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_15" ID="{2CB3794B-A6A1-44BF-91B0-12AAC0FC4A5F}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_15.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296116212"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_15" ID="{2CB3794B-A6A1-44BF-91B0-12AAC0FC4A5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_11" ID="{6E4826F5-59E1-4A43-9FE2-1442C139E8E5}" ShortID="1041852974">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_11.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="980579756"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_11" ID="{0700AF6E-170E-4664-811D-6CDCD14B961F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_13" ID="{82DA4612-84DD-4AB5-99D8-6C382AE44CF6}" ShortID="670169291">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_13" ID="{C6324A87-A728-48C2-9C1C-3AA58B3FB63B}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_11" ID="{0700AF6E-170E-4664-811D-6CDCD14B961F}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="980579756"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_11" ID="{0700AF6E-170E-4664-811D-6CDCD14B961F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_13" ID="{82DA4612-84DD-4AB5-99D8-6C382AE44CF6}" ShortID="670169291">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_13.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="847904829"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_13" ID="{C6324A87-A728-48C2-9C1C-3AA58B3FB63B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_04" ID="{2C9B0620-84E3-4850-8F85-F90B7D82A3F4}" ShortID="776147152">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_04" ID="{A0B22500-D2F9-4507-8AB7-C5CA0F7D5DFA}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_13" ID="{C6324A87-A728-48C2-9C1C-3AA58B3FB63B}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="847904829"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_13" ID="{C6324A87-A728-48C2-9C1C-3AA58B3FB63B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_04" ID="{2C9B0620-84E3-4850-8F85-F90B7D82A3F4}" ShortID="776147152">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_04.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1046697521"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_04" ID="{A0B22500-D2F9-4507-8AB7-C5CA0F7D5DFA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_12" ID="{D5E98207-B918-479E-B3A8-4BD64754D5E1}" ShortID="958720982">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_12" ID="{C05C48BA-846B-463B-93CA-497F80C1E436}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_04" ID="{A0B22500-D2F9-4507-8AB7-C5CA0F7D5DFA}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1046697521"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_04" ID="{A0B22500-D2F9-4507-8AB7-C5CA0F7D5DFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_12" ID="{D5E98207-B918-479E-B3A8-4BD64754D5E1}" ShortID="958720982">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_12.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="434104947"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_12" ID="{C05C48BA-846B-463B-93CA-497F80C1E436}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_08" ID="{C6A8267B-6B5C-4057-8700-7E5B5AF4C72A}" ShortID="464969914">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_08" ID="{7E54C002-89E7-4AB8-ACBB-77C4D23902B0}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_12" ID="{C05C48BA-846B-463B-93CA-497F80C1E436}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="434104947"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_12" ID="{C05C48BA-846B-463B-93CA-497F80C1E436}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_08" ID="{C6A8267B-6B5C-4057-8700-7E5B5AF4C72A}" ShortID="464969914">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_08.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="551426649"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_08" ID="{7E54C002-89E7-4AB8-ACBB-77C4D23902B0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_01" ID="{B6A26CD4-CB69-4CE3-B146-7E6B3B26AE09}" ShortID="250304305">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_01" ID="{3C8FBA7E-7B78-4D47-8CD0-0688BE67B72C}">
-									<Language>English(US)</Language>
-									<AudioFile>NAR_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="242282677"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_01" ID="{3C8FBA7E-7B78-4D47-8CD0-0688BE67B72C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_07" ID="{8E08B9EF-651E-4DAC-ACFF-9026733BDBA9}" ShortID="440117687">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_07" ID="{C85906E1-E1E9-4B53-993D-8E2A90AA61E5}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_08" ID="{7E54C002-89E7-4AB8-ACBB-77C4D23902B0}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="551426649"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_08" ID="{7E54C002-89E7-4AB8-ACBB-77C4D23902B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_01" ID="{B6A26CD4-CB69-4CE3-B146-7E6B3B26AE09}" ShortID="250304305">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_07.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="783029963"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_07" ID="{C85906E1-E1E9-4B53-993D-8E2A90AA61E5}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_06" ID="{BBD44BB5-F076-4374-95ED-7C39F2AF64E2}" ShortID="76304997">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_06" ID="{32DF673D-610A-4C40-90B9-D8365824D371}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_01" ID="{3C8FBA7E-7B78-4D47-8CD0-0688BE67B72C}">
+											<Language>English(US)</Language>
+											<AudioFile>NAR_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="242282677"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_01" ID="{3C8FBA7E-7B78-4D47-8CD0-0688BE67B72C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_07" ID="{8E08B9EF-651E-4DAC-ACFF-9026733BDBA9}" ShortID="440117687">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_06.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="538530665"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_06" ID="{32DF673D-610A-4C40-90B9-D8365824D371}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="NAR_10" ID="{2EAD49AA-299A-4372-8B39-81BECD707BB8}" ShortID="527337917">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="NAR_10" ID="{7FFCE999-DAC5-4001-945B-6908D614038A}">
+									<ChildrenList>
+										<AudioFileSource Name="NAR_07" ID="{C85906E1-E1E9-4B53-993D-8E2A90AA61E5}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="783029963"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_07" ID="{C85906E1-E1E9-4B53-993D-8E2A90AA61E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_06" ID="{BBD44BB5-F076-4374-95ED-7C39F2AF64E2}" ShortID="76304997">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
 										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
 									</ReferenceList>
-									<Language>English(US)</Language>
-									<AudioFile>NAR_10.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="660333798"/>
-									</MediaIDList>
-								</AudioFileSource>
+									<ChildrenList>
+										<AudioFileSource Name="NAR_06" ID="{32DF673D-610A-4C40-90B9-D8365824D371}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="538530665"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_06" ID="{32DF673D-610A-4C40-90B9-D8365824D371}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NAR_10" ID="{2EAD49AA-299A-4372-8B39-81BECD707BB8}" ShortID="527337917">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NAR_10" ID="{7FFCE999-DAC5-4001-945B-6908D614038A}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>English(US)</Language>
+											<AudioFile>NAR_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="660333798"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="NAR_10" ID="{7FFCE999-DAC5-4001-945B-6908D614038A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="NAR_10" ID="{7FFCE999-DAC5-4001-945B-6908D614038A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</Folder>
+						<Folder Name="Other" ID="{ECD1E083-7B65-4161-9BEE-24C5090CEB4F}" ShortID="555242042">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="GPA_01" ID="{CBF6C584-C3A5-4C53-8717-EBBA9118C665}" ShortID="743647004">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPA01" ID="{35E3A89E-4F09-453B-8BAA-22305D04FA13}">
+											<Language>English(US)</Language>
+											<AudioFile>GPA01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="600476579"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="GPA01" ID="{35E3A89E-4F09-453B-8BAA-22305D04FA13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RAD_01" ID="{60290BF1-72B5-4523-BF09-0E06F2E366AC}" ShortID="276430649">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RAD01" ID="{4A0CD0F8-3E99-4171-8A17-6F5D786DC2D7}">
+											<Language>English(US)</Language>
+											<AudioFile>RAD01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492684006"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="RAD01" ID="{4A0CD0F8-3E99-4171-8A17-6F5D786DC2D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WOM_01" ID="{55953048-BB3C-442A-877D-9775E0643084}" ShortID="1044575727">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WOM01" ID="{222CAAD3-0D14-4AD8-B45C-B6B958F3783B}">
+											<Language>English(US)</Language>
+											<AudioFile>WOM01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="710877207"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WOM01" ID="{222CAAD3-0D14-4AD8-B45C-B6B958F3783B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MOU_01" ID="{B94D5281-467F-4109-8186-7EBEE146A392}" ShortID="406055787">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MOU01" ID="{C2B8211D-9C87-4269-8F1A-3BA69B650C7F}">
+											<Language>English(US)</Language>
+											<AudioFile>MOU01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="679676156"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="MOU01" ID="{C2B8211D-9C87-4269-8F1A-3BA69B650C7F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HIDENSEEK_01" ID="{300B19C3-7194-4270-BA64-1B2B1F07C9DE}" ShortID="186333235">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HNS01" ID="{9719B898-3835-4A88-B79D-806EE1A51141}">
+											<Language>English(US)</Language>
+											<AudioFile>HNS01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298158089"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="HNS01" ID="{9719B898-3835-4A88-B79D-806EE1A51141}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WOM_02" ID="{64B42F6E-8D0C-4F1D-BEFA-CCAE5A962757}" ShortID="548312637">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WOM02" ID="{FA4743E9-C815-42A7-8438-8C5C85450155}">
+											<Language>English(US)</Language>
+											<AudioFile>WOM02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="670865724"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WOM02" ID="{FA4743E9-C815-42A7-8438-8C5C85450155}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</Folder>
-				<Folder Name="Other" ID="{ECD1E083-7B65-4161-9BEE-24C5090CEB4F}" ShortID="555242042">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Sound Name="GPA_01" ID="{CBF6C584-C3A5-4C53-8717-EBBA9118C665}" ShortID="743647004">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="GPA01" ID="{35E3A89E-4F09-453B-8BAA-22305D04FA13}">
-									<Language>English(US)</Language>
-									<AudioFile>GPA01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="600476579"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="GPA01" ID="{35E3A89E-4F09-453B-8BAA-22305D04FA13}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="RAD_01" ID="{60290BF1-72B5-4523-BF09-0E06F2E366AC}" ShortID="276430649">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="RAD01" ID="{4A0CD0F8-3E99-4171-8A17-6F5D786DC2D7}">
-									<Language>English(US)</Language>
-									<AudioFile>RAD01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="492684006"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="RAD01" ID="{4A0CD0F8-3E99-4171-8A17-6F5D786DC2D7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="WOM_01" ID="{55953048-BB3C-442A-877D-9775E0643084}" ShortID="1044575727">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="WOM01" ID="{222CAAD3-0D14-4AD8-B45C-B6B958F3783B}">
-									<Language>English(US)</Language>
-									<AudioFile>WOM01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="710877207"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="WOM01" ID="{222CAAD3-0D14-4AD8-B45C-B6B958F3783B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="MOU_01" ID="{B94D5281-467F-4109-8186-7EBEE146A392}" ShortID="406055787">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="MOU01" ID="{C2B8211D-9C87-4269-8F1A-3BA69B650C7F}">
-									<Language>English(US)</Language>
-									<AudioFile>MOU01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="679676156"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="MOU01" ID="{C2B8211D-9C87-4269-8F1A-3BA69B650C7F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="HIDENSEEK_01" ID="{300B19C3-7194-4270-BA64-1B2B1F07C9DE}" ShortID="186333235">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="HNS01" ID="{9719B898-3835-4A88-B79D-806EE1A51141}">
-									<Language>English(US)</Language>
-									<AudioFile>HNS01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="298158089"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="HNS01" ID="{9719B898-3835-4A88-B79D-806EE1A51141}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="WOM_02" ID="{64B42F6E-8D0C-4F1D-BEFA-CCAE5A962757}" ShortID="548312637">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="WOM02" ID="{FA4743E9-C815-42A7-8438-8C5C85450155}">
-									<Language>English(US)</Language>
-									<AudioFile>WOM02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="670865724"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="WOM02" ID="{FA4743E9-C815-42A7-8438-8C5C85450155}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
+					<ObjectLists/>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

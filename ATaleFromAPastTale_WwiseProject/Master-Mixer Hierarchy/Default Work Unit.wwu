@@ -9,6 +9,75 @@
 							<ObjectRef Name="System" ID="{C132ADCC-33F8-44F6-B8F9-825DFCE77CC2}" WorkUnitID="{428D3A52-D995-4227-A804-E57032F94BED}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Secondary" ID="{AF57BD23-71F3-4DF4-B563-B317AAC38FA7}">
+							<ChildrenList>
+								<Bus Name="Footsteps" ID="{553B4D76-534B-446D-88EA-EF7699B31F2E}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-500</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Ambiances" ID="{21999C21-7FB5-4DE3-BC1E-8261DAC048F6}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Main" ID="{84BC55B3-3214-4A02-863E-CEAF70044DD2}">
+							<PropertyList>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-25"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Items" ID="{5D6E802A-3F73-4980-98DF-E3EAA2F9E5AC}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="1"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Voices" ID="{EC82B187-6850-4FAE-B5BF-537322974CEE}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="11"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Secondary" ID="{AF57BD23-71F3-4DF4-B563-B317AAC38FA7}"/>
+									<DuckingParam>
+										<Volume>-8</Volume>
+										<FadeInTime>0.300000011920929</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeInvSCurve</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

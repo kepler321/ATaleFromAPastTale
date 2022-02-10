@@ -10,8 +10,20 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PillBottle" ID="{55217109-FF9D-45DE-A19A-2325960572DA}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="RadioOff" ID="{8B49C9A8-BAEF-4CEB-B4A8-9029BDEAA04D}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rain" ID="{8802BDF6-B9C2-4929-A3D6-E760BD466BC5}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="NAR_01" ID="{46770F7B-ABB7-4EAA-B084-45412754BB1C}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
