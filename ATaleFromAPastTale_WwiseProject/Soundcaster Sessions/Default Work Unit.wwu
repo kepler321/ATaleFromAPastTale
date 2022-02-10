@@ -4,6 +4,16 @@
 		<WorkUnit Name="Default Work Unit" ID="{FA430CB6-EB77-493C-86D6-60A57857A9EF}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Music" ID="{2F36D7A3-59F1-4A72-B075-62B1D8592A7A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="RadioStatic" ID="{1D305869-C3C2-48EA-A6AB-8C6C768BC372}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RadioOff" ID="{8B49C9A8-BAEF-4CEB-B4A8-9029BDEAA04D}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F2F718F1-27E7-49FE-9A7C-BD89B06D90B0}"/>

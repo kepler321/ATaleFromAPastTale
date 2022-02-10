@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1067990142	LPFRainOff			\Default Work Unit\LPFRainOff	
-
