@@ -73,17 +73,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="CricketsBirds" ID="{8FC14615-1A53-477C-8E1D-D5F98B66AB95}">
-							<ChildrenList>
-								<Action Name="" ID="{204A23B1-C9C2-4F45-A3C8-350E0696D4E3}" ShortID="653277351">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="CricketsBirds" ID="{98323B9C-AD06-4FEA-8858-C9EA11519E3D}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="RadioOff" ID="{8B49C9A8-BAEF-4CEB-B4A8-9029BDEAA04D}">
 							<ChildrenList>
 								<Action Name="" ID="{21E29B0C-0211-452E-8E23-6322AC77B6D7}" ShortID="259656370">
@@ -131,7 +120,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Tree" ID="{276B15C5-27E6-44BC-9B61-406112894CA1}"/>
+						<Event Name="Tree" ID="{276B15C5-27E6-44BC-9B61-406112894CA1}">
+							<ChildrenList>
+								<Action Name="" ID="{1E73235B-A94E-4E5B-9AF9-E54A6C029421}" ShortID="867842366">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tree" ID="{CF55BEE6-9B95-4290-ADD9-E4EA68379757}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Outdoors" ID="{CC5DE33D-C1EC-4B78-A951-30D7B4A37832}">
 							<ChildrenList>
 								<Action Name="" ID="{9D0796B2-BA3A-434D-8DB1-6D0D0728750A}" ShortID="662087122">
