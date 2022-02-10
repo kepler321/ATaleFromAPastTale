@@ -279,13 +279,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Rain8" ID="{F08DF199-B74D-4D09-8BC6-2B70BF17FC9B}" ShortID="839480157">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -358,13 +351,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rain2" ID="{AC781816-D577-40EB-BD2C-010DCFC0FD3F}" ShortID="132014526">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -388,13 +374,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rain6" ID="{C74FC920-8B27-460A-80C9-BA6526A5B90C}" ShortID="319205110">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -418,13 +397,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rain1" ID="{824B7246-473B-47B0-A588-410AF66F0861}" ShortID="996070632">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -448,13 +420,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rain4" ID="{36B9B9B1-AE5A-4374-812C-7C06EE8311A7}" ShortID="269862203">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -478,13 +443,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rain5" ID="{51ADBEED-0D9F-4642-BEAB-16C0D4FD0FB7}" ShortID="1054965846">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -508,13 +466,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rain3" ID="{57DA8298-8730-4270-924B-9012DC2032C0}" ShortID="594974575">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -538,13 +489,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rain7" ID="{15500E69-7057-47C3-88CB-60EB74CF2478}" ShortID="803735103">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>

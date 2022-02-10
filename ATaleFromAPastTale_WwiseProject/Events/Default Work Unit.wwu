@@ -3,7 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{4423BB64-2842-4093-977E-829D38F4A0BD}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Flashback" ID="{7D0E2AE5-FB26-4877-A88F-B2777284AA6C}"/>
 				<Folder Name="Items" ID="{4C57D70F-E121-460C-A130-04B0A8DB8AF1}" ShortID="480139696">
 					<ChildrenList>
 						<Event Name="Bag" ID="{5E9E6142-CEFF-4F35-86D2-7BB709EEE63E}">
@@ -144,6 +143,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Frogs" ID="{9F0E3E18-8E72-4D7A-BC2C-190F388D0259}">
+							<ChildrenList>
+								<Action Name="" ID="{C1FB2833-D979-4CD4-99F2-460D043E96D6}" ShortID="1025048244">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Frogs" ID="{71C1188C-3FE7-4255-8A1E-AE18011B3EB9}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CricketBirds" ID="{9C83A11C-4097-407E-9152-50DBAA2DD652}">
+							<ChildrenList>
+								<Action Name="" ID="{B7F62CAD-6302-4A9E-BE3C-AD64FBCFD410}" ShortID="856350068">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CricketsBirds" ID="{98323B9C-AD06-4FEA-8858-C9EA11519E3D}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Wolves" ID="{70E9FE6B-72A2-4CCF-876C-8E700DAC7257}">
+							<ChildrenList>
+								<Action Name="" ID="{CD93BF2A-689F-46FC-8D69-A3CEB6A1EF25}" ShortID="808577922">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wolves" ID="{851FAF1D-34C6-413F-A562-5B1495F40CA2}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{2E7BE4BE-5330-4844-9A14-2938F8638184}" ShortID="526457475">
@@ -182,30 +214,9 @@
 						<Event Name="FadeIn" ID="{2676753F-7CB7-451D-92BF-B117C4678EAE}"/>
 						<Event Name="LPFRainOff" ID="{0F71EDC2-F554-4E2C-A167-C979D563919D}"/>
 						<Event Name="LPFRainOn" ID="{859CD652-A108-446C-A5B7-80BA108492DD}"/>
+						<Event Name="Flashback" ID="{7D0E2AE5-FB26-4877-A88F-B2777284AA6C}"/>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Frogs" ID="{9F0E3E18-8E72-4D7A-BC2C-190F388D0259}">
-					<ChildrenList>
-						<Action Name="" ID="{C1FB2833-D979-4CD4-99F2-460D043E96D6}" ShortID="1025048244">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Frogs" ID="{71C1188C-3FE7-4255-8A1E-AE18011B3EB9}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Bag" ID="{1563386C-C3D2-4DE3-99F9-B0D69D933E01}">
-					<ChildrenList>
-						<Action Name="" ID="{8E4DB043-22F1-4396-B824-9C900A1235EE}" ShortID="517658508">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bag" ID="{10B0419D-2717-4618-B506-FCE7030F79DE}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

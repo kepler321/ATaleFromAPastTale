@@ -4,7 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{4FB67098-C52B-4090-8DF3-1ED723BDE1C5}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="MainBank" ID="{3B5DF583-8F3A-4086-92BC-4B8607E25544}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Items" ID="{4C57D70F-E121-460C-A130-04B0A8DB8AF1}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Character" ID="{2E7BE4BE-5330-4844-9A14-2938F8638184}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Paths" ID="{15978F72-4ED8-49F6-9C35-F5C635EE7ECB}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fades" ID="{F589CEE5-B8F8-4BA7-B72B-FEFD96DCA684}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire" ID="{10126488-4AA4-4D03-8902-B45F52720C71}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -17,7 +23,8 @@
 				</SoundBank>
 				<SoundBank Name="Ambiances" ID="{ACB308E6-5DD8-485B-A90F-2A8263C9A7EF}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Ambiances" ID="{4C5A66E6-AFEB-484A-A158-8A76A77B6574}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rain" ID="{8802BDF6-B9C2-4929-A3D6-E760BD466BC5}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiances" ID="{38B9EEA1-924F-4FCD-9303-F0AFEE8471CE}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
