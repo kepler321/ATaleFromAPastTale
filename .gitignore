@@ -26,6 +26,7 @@ ATaleFromAPastTale_WwiseProject/**/*.akd
 Plugins/Wwise
 ATaleFromAPastTale_WwiseProject/GeneratedSoundBanks
 ATaleFromAPastTale_WwiseProject/Originals
+Content/WwiseAudio/Media/
 Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
 
 WwiseUnityIntegration_*_Src.zip
