@@ -93,11 +93,6 @@
 								</Bus>
 								<Bus Name="Voices" ID="{EC82B187-6850-4FAE-B5BF-537322974CEE}">
 									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>-96</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Color" Type="int16" Value="11"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>

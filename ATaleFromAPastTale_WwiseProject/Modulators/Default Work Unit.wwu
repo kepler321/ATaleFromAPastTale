@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E506F5F1-2520-4DB6-A7AE-4D979D54E640}" SchemaVersion="103">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{E506F5F1-2520-4DB6-A7AE-4D979D54E640}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E506F5F1-2520-4DB6-A7AE-4D979D54E640}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="LFO" ID="{16302585-DFC9-41CA-B13B-C37864F97D29}" ShortID="54351936">
+					<PropertyList>
+						<Property Name="LfoAttack" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BFBE94D1-8A18-4CF3-A42D-1870562CFCDD}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A8ECDEA9-35E5-42CC-BA87-7CB46E2DBBC7}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.1"/>
+											<Property Name="Min" Type="Real64" Value="-0.1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoSmoothing" Type="Real64" Value="43"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>
