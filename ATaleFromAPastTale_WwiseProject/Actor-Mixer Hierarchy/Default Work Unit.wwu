@@ -258,6 +258,34 @@
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{AF687CD4-BACA-4F76-943A-17077A0C4328}" ShortID="1029669824">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LFO" ID="{16302585-DFC9-41CA-B13B-C37864F97D29}" WorkUnitID="{E506F5F1-2520-4DB6-A7AE-4D979D54E640}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A05FA14E-127D-4E6C-85AB-A9328E2F0447}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-645</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
@@ -268,6 +296,32 @@
 									<ValueList>
 										<Value>-14</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{ED57B2D4-1800-491F-BFA6-3F95161B768B}" ShortID="907765932">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LFO" ID="{16302585-DFC9-41CA-B13B-C37864F97D29}" WorkUnitID="{E506F5F1-2520-4DB6-A7AE-4D979D54E640}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AC87EC71-6863-4996-85E8-3EC842DF75C1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4.05651</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>

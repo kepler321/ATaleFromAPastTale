@@ -14,6 +14,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="NAR_01" ID="{46770F7B-ABB7-4EAA-B084-45412754BB1C}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="RadioOff" ID="{8B49C9A8-BAEF-4CEB-B4A8-9029BDEAA04D}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -32,6 +36,10 @@
 						<Module>
 							<ObjectRef Name="NAR_01" ID="{46770F7B-ABB7-4EAA-B084-45412754BB1C}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CricketBirds" ID="{9C83A11C-4097-407E-9152-50DBAA2DD652}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
