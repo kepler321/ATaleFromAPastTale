@@ -38,7 +38,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Pictures" ID="{86C0840E-1F0A-4BF5-AAE7-7E116DC752E4}"/>
+						<Event Name="Pictures" ID="{86C0840E-1F0A-4BF5-AAE7-7E116DC752E4}">
+							<ChildrenList>
+								<Action Name="" ID="{29C8BC00-BBA0-46F5-95B6-00D436623804}" ShortID="363454568">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NAR_07" ID="{70E90699-8645-4144-B8EB-24FFBE228026}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="PillBottle" ID="{55217109-FF9D-45DE-A19A-2325960572DA}">
 							<ChildrenList>
 								<Action Name="" ID="{2EDD107B-E2CA-4B9B-9CFC-42DB357196E8}" ShortID="947314342">
@@ -61,7 +74,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Sofa" ID="{A45F556A-3AC0-43A8-ADB4-9D44F7272E10}"/>
+						<Event Name="Sofa" ID="{A45F556A-3AC0-43A8-ADB4-9D44F7272E10}">
+							<ChildrenList>
+								<Action Name="" ID="{D41D330B-1706-47E2-A3D2-310AE04492B8}" ShortID="581233062">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sofa" ID="{79B9EA56-DF9E-4180-9AA5-A782043E0163}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="TV" ID="{45C49543-E64D-4A7E-B9D0-585A125E7C2C}">
 							<ChildrenList>
 								<Action Name="" ID="{75422B37-ED9D-4DEC-AEF1-9A1AB4CC2B09}" ShortID="631620820">
@@ -175,6 +198,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Thunder" ID="{01ABE69E-5C56-447D-ADC8-5A55BE07BD10}">
+							<ChildrenList>
+								<Action Name="" ID="{650F9FA7-BFA5-4BF4-9665-AFBF3181A50A}" ShortID="207016063">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Thunder" ID="{07546D05-7D3C-4702-A63C-95CC3A8C14C5}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{2E7BE4BE-5330-4844-9A14-2938F8638184}" ShortID="526457475">
@@ -194,9 +228,34 @@
 				</Folder>
 				<Folder Name="Paths" ID="{15978F72-4ED8-49F6-9C35-F5C635EE7ECB}" ShortID="742727178">
 					<ChildrenList>
-						<Event Name="LeftPath" ID="{1949EF78-F985-42C2-AC9F-58381A8DCCBB}"/>
-						<Event Name="RightPath" ID="{4C092FF1-E9FC-4C16-92D4-33B8EC99595E}"/>
-						<Event Name="MiddlePath" ID="{17C92536-5B35-4B1F-8BA0-58B2FD2F7839}"/>
+						<Event Name="LeftPath" ID="{1949EF78-F985-42C2-AC9F-58381A8DCCBB}">
+							<ChildrenList>
+								<Action Name="" ID="{E45EC6FB-AF39-4831-A5F4-64F3375D2055}" ShortID="171579828">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NAR_02" ID="{74F90254-55FF-4CE2-8277-9EC0C7DA42FF}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MiddlePath" ID="{17C92536-5B35-4B1F-8BA0-58B2FD2F7839}">
+							<ChildrenList>
+								<Action Name="" ID="{6B27E9D4-1949-4A37-A3D8-4344E025A0F5}" ShortID="568818090">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NAR_03" ID="{0B498AEA-0F06-4CB2-9D88-CB26171348D7}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Fire" ID="{10126488-4AA4-4D03-8902-B45F52720C71}" ShortID="78844498">
@@ -209,8 +268,37 @@
 				</Folder>
 				<Folder Name="Fades" ID="{F589CEE5-B8F8-4BA7-B72B-FEFD96DCA684}" ShortID="604740639">
 					<ChildrenList>
-						<Event Name="FadeOut" ID="{4EAE6C8F-FDAA-4F42-A1C1-FAB13C3A15CD}"/>
-						<Event Name="FadeIn" ID="{2676753F-7CB7-451D-92BF-B117C4678EAE}"/>
+						<Event Name="FadeOut" ID="{4EAE6C8F-FDAA-4F42-A1C1-FAB13C3A15CD}">
+							<ChildrenList>
+								<Action Name="" ID="{5011283E-2B57-40A9-B7D7-DF2C25DAD5E5}" ShortID="1066378661">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="Volume" Type="Real64" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Secondary" ID="{AF57BD23-71F3-4DF4-B563-B317AAC38FA7}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FadeIn" ID="{2676753F-7CB7-451D-92BF-B117C4678EAE}">
+							<ChildrenList>
+								<Action Name="" ID="{29754C57-CDD3-4794-A122-7319BC57B280}" ShortID="338348295">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Secondary" ID="{AF57BD23-71F3-4DF4-B563-B317AAC38FA7}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="FilterAmbOff" ID="{0F71EDC2-F554-4E2C-A167-C979D563919D}">
 							<ChildrenList>
 								<Action Name="" ID="{1A14B3A4-38FB-4408-BB5D-4B5198752551}" ShortID="909065255">
@@ -240,7 +328,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="Lowpass" Type="int16" Value="65"/>
+										<Property Name="Lowpass" Type="int16" Value="36"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
