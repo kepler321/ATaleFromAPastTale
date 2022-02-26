@@ -1417,6 +1417,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Dirt" ID="{2E06A1E6-8249-4102-BD7D-1CA76CAD36B7}" ShortID="291054039">
 											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1431,7 +1432,7 @@
 												</Property>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>80</Value>
+														<Value>90</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1915,7 +1916,7 @@
 												</Property>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>20</Value>
+														<Value>10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2348,7 +2349,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2383,7 +2384,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2420,7 +2421,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2457,7 +2458,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2494,7 +2495,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2531,7 +2532,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2568,7 +2569,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2605,7 +2606,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>95</Value>
+																<Value>99</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2935,7 +2936,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -2970,7 +2971,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3007,7 +3008,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3044,7 +3045,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3081,7 +3082,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3118,7 +3119,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3155,7 +3156,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3192,7 +3193,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3229,7 +3230,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>1</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3266,7 +3267,7 @@
 													<PropertyList>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
-																<Value>95</Value>
+																<Value>99</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>

@@ -6,6 +6,12 @@
 				<ActorMixer Name="Voices" ID="{295C48D8-DC09-41C1-8809-F0EFAB3B7750}" ShortID="799015904">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>

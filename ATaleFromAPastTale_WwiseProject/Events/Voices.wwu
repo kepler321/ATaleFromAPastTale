@@ -72,9 +72,6 @@
 				<Event Name="NAR_08" ID="{3AC4F0D2-4836-4631-ABE7-DB73B1FA2172}">
 					<ChildrenList>
 						<Action Name="" ID="{AD85474E-F5C4-4BFC-B9FD-AC4AA1CBA97F}" ShortID="193005887">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="10"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="NAR_08" ID="{C6A8267B-6B5C-4057-8700-7E5B5AF4C72A}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
