@@ -72,6 +72,9 @@
 				<Event Name="NAR_08" ID="{3AC4F0D2-4836-4631-ABE7-DB73B1FA2172}">
 					<ChildrenList>
 						<Action Name="" ID="{AD85474E-F5C4-4BFC-B9FD-AC4AA1CBA97F}" ShortID="193005887">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="10"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="NAR_08" ID="{C6A8267B-6B5C-4057-8700-7E5B5AF4C72A}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
@@ -171,9 +174,19 @@
 				<Event Name="WOM_01" ID="{ABC0E6BC-E643-48CE-832F-6CF2C4FEEDA0}">
 					<ChildrenList>
 						<Action Name="" ID="{A4DB60F8-E6BD-432D-BF56-CFCA3520C048}" ShortID="1058651928">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WOM_01" ID="{55953048-BB3C-442A-877D-9775E0643084}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6AB2719D-15BF-449F-B5F4-81E53D1A33F8}" ShortID="350858746">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger" ID="{BCFE8CC8-ACE5-44D4-ABEC-089B127A5DBC}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -182,9 +195,19 @@
 				<Event Name="WOM_02" ID="{72E047D1-021B-4C30-B9FB-36E615501156}">
 					<ChildrenList>
 						<Action Name="" ID="{4DB2DEE0-1147-495A-86F4-3B1E5E79C4EC}" ShortID="732538314">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WOM_02" ID="{64B42F6E-8D0C-4F1D-BEFA-CCAE5A962757}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DBA0D461-CE7E-4855-8FB3-8AD5848F0495}" ShortID="833650397">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger" ID="{BCFE8CC8-ACE5-44D4-ABEC-089B127A5DBC}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -193,9 +216,19 @@
 				<Event Name="HNS_01" ID="{3912DC58-AE85-48CC-BA86-B4F0BBE045D0}">
 					<ChildrenList>
 						<Action Name="" ID="{EB615FA4-16A2-4F89-869C-455F31788202}" ShortID="249326359">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="HIDENSEEK_01" ID="{300B19C3-7194-4270-BA64-1B2B1F07C9DE}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5F3075D6-2B9B-452A-9379-988452322D84}" ShortID="182652279">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger" ID="{BCFE8CC8-ACE5-44D4-ABEC-089B127A5DBC}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -215,9 +248,19 @@
 				<Event Name="GPA_01" ID="{796D6DE3-BCAE-40DC-9122-F5C8F91F27D3}">
 					<ChildrenList>
 						<Action Name="" ID="{51FC953D-81F0-42C7-8B7B-D2D258880004}" ShortID="451963847">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="GPA_01" ID="{CBF6C584-C3A5-4C53-8717-EBBA9118C665}" WorkUnitID="{6EEE92AE-8067-4270-A538-23F513AC9742}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C5E37F76-4075-4D74-A609-115B45A4CEAF}" ShortID="137061203">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger" ID="{BCFE8CC8-ACE5-44D4-ABEC-089B127A5DBC}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

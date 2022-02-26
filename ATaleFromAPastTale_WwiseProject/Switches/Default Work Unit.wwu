@@ -11,6 +11,7 @@
 						<Switch Name="Mud" ID="{6BDE753F-B258-40DE-9430-6D93C80305BA}"/>
 						<Switch Name="Wood" ID="{98F9F5BD-39CF-48E8-980D-8F3C4671475D}"/>
 						<Switch Name="Kitchen" ID="{B95311A5-CCE8-44FA-81BF-C5868F8971CF}"/>
+						<Switch Name="Bath" ID="{6CA5E1AE-3A98-4B8E-A58D-C27B831C9DB6}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

@@ -44,10 +44,10 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{F2F718F1-27E7-49FE-9A7C-BD89B06D90B0}"/>
+						<CurrentStateRef Name="Close" ID="{408570DC-4CA1-466F-AB27-A457FF120D3A}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Kitchen" ID="{B95311A5-CCE8-44FA-81BF-C5868F8971CF}"/>
+						<CurrentSwitchRef Name="Wood" ID="{98F9F5BD-39CF-48E8-980D-8F3C4671475D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

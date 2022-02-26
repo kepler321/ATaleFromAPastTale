@@ -7,7 +7,17 @@
 					<ChildrenList>
 						<Event Name="Bag" ID="{5E9E6142-CEFF-4F35-86D2-7BB709EEE63E}">
 							<ChildrenList>
+								<Action Name="" ID="{3292B060-8391-4E00-90E0-BCD57109FEEA}" ShortID="976645475">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stinger" ID="{BCFE8CC8-ACE5-44D4-ABEC-089B127A5DBC}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{10DD48D4-48BC-450C-B817-5D65BB4D8A73}" ShortID="20283620">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Bag" ID="{10B0419D-2717-4618-B506-FCE7030F79DE}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
@@ -19,9 +29,19 @@
 						<Event Name="Cloth" ID="{1E33C95B-3458-4998-B58A-ACE1B9F90018}">
 							<ChildrenList>
 								<Action Name="" ID="{978D99C4-9063-44FB-B2F3-F450AE9DEB82}" ShortID="157523811">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Cloth" ID="{A446C611-FE20-4582-AF57-DBD79144DDE7}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{95A4ABDF-086F-4FBC-B319-D5943AF6F9E1}" ShortID="485776140">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stinger" ID="{BCFE8CC8-ACE5-44D4-ABEC-089B127A5DBC}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -33,20 +53,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Knife" ID="{735E449A-3855-46FD-AF0D-32C700554899}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Pictures" ID="{86C0840E-1F0A-4BF5-AAE7-7E116DC752E4}">
-							<ChildrenList>
-								<Action Name="" ID="{29C8BC00-BBA0-46F5-95B6-00D436623804}" ShortID="363454568">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="41"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="NAR_07" ID="{70E90699-8645-4144-B8EB-24FFBE228026}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -66,9 +72,19 @@
 						<Event Name="Shoe" ID="{34D08CA7-7E75-4123-8995-E4EDB5C91B28}">
 							<ChildrenList>
 								<Action Name="" ID="{E0DD6855-E042-4787-A40D-04292DB6701C}" ShortID="242647100">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Shoe" ID="{0F3809D5-34A5-4149-A6CE-BFB9CD618E94}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A59D7251-E61E-418E-BA1D-554ED5040C24}" ShortID="610672422">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stinger" ID="{BCFE8CC8-ACE5-44D4-ABEC-089B127A5DBC}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -77,6 +93,9 @@
 						<Event Name="Sofa" ID="{A45F556A-3AC0-43A8-ADB4-9D44F7272E10}">
 							<ChildrenList>
 								<Action Name="" ID="{D41D330B-1706-47E2-A3D2-310AE04492B8}" ShortID="581233062">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Sofa" ID="{79B9EA56-DF9E-4180-9AA5-A782043E0163}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
