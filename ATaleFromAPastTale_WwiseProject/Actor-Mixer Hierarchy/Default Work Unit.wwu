@@ -244,12 +244,12 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>200</YPos>
+														<YPos>50</YPos>
 														<Flags>21</Flags>
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>-200</YPos>
+														<YPos>-50</YPos>
 														<Flags>53</Flags>
 													</Point>
 												</PointList>
