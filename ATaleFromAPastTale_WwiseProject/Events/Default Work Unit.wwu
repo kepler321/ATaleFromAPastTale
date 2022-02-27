@@ -93,9 +93,6 @@
 						<Event Name="Sofa" ID="{A45F556A-3AC0-43A8-ADB4-9D44F7272E10}">
 							<ChildrenList>
 								<Action Name="" ID="{D41D330B-1706-47E2-A3D2-310AE04492B8}" ShortID="581233062">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="2"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Sofa" ID="{79B9EA56-DF9E-4180-9AA5-A782043E0163}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
@@ -142,6 +139,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Radstatic" ID="{01A3D6AE-5032-4053-A2E9-B7E7A18BEEC6}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Door" ID="{A65D8698-D7CF-4AA7-AA53-943EFBB3DA80}">
+							<ChildrenList>
+								<Action Name="" ID="{DBA3F73F-9646-40F6-A4DB-C0789418093E}" ShortID="14863625">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door" ID="{33C9F216-B922-4826-B525-CB90777F54A7}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{07D64D8E-D1C9-4AD3-B69C-DA57BEF5687C}" ShortID="727080595">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door" ID="{33C9F216-B922-4826-B525-CB90777F54A7}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -245,55 +264,63 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Paths" ID="{15978F72-4ED8-49F6-9C35-F5C635EE7ECB}" ShortID="742727178">
-					<ChildrenList>
-						<Event Name="LeftPath" ID="{1949EF78-F985-42C2-AC9F-58381A8DCCBB}">
-							<ChildrenList>
-								<Action Name="" ID="{E45EC6FB-AF39-4831-A5F4-64F3375D2055}" ShortID="171579828">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="41"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="NAR_02" ID="{74F90254-55FF-4CE2-8277-9EC0C7DA42FF}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="MiddlePath" ID="{17C92536-5B35-4B1F-8BA0-58B2FD2F7839}">
-							<ChildrenList>
-								<Action Name="" ID="{6B27E9D4-1949-4A37-A3D8-4344E025A0F5}" ShortID="568818090">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="41"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="NAR_03" ID="{0B498AEA-0F06-4CB2-9D88-CB26171348D7}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Fire" ID="{10126488-4AA4-4D03-8902-B45F52720C71}" ShortID="78844498">
 					<ChildrenList>
-						<Event Name="FireOn" ID="{D2FBEE0C-4231-4DFF-970E-93F74DBF3AB2}"/>
-						<Event Name="FireLoop" ID="{FBA830DB-34EB-43E5-BC65-B838686D56CF}"/>
-						<Event Name="FireOff" ID="{5B520A7A-2F2E-4252-90C1-3E500A239B72}"/>
-						<Event Name="FireWater" ID="{6D95D91B-F050-41CD-A2A8-7A4B9E6741DE}"/>
+						<Event Name="FireLoop" ID="{FBA830DB-34EB-43E5-BC65-B838686D56CF}">
+							<ChildrenList>
+								<Action Name="" ID="{64AAAE42-7557-4965-BB69-A5F7267547A9}" ShortID="188687584">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireLoop" ID="{364EC13F-CEE5-4677-A61E-3DFB71A63096}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FireIgnition" ID="{5B520A7A-2F2E-4252-90C1-3E500A239B72}">
+							<ChildrenList>
+								<Action Name="" ID="{ACBE0984-D1D8-45D8-9019-5786BB08E132}" ShortID="188738993">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireIgnition" ID="{2CDBEFC2-A4EE-4DB9-926F-19533B2421AA}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FirePickUp" ID="{23AF4754-2BE3-4AB8-B3AF-0BFB01343C3C}">
+							<ChildrenList>
+								<Action Name="" ID="{2DCDAB2C-3B09-4878-8731-88DC354BCC1B}" ShortID="434959303">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireLoop" ID="{364EC13F-CEE5-4677-A61E-3DFB71A63096}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{21F5B270-21ED-458C-A1D8-B88C3FFD1DB1}" ShortID="522705544">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FirePickUp" ID="{A116E66A-5EA8-48AE-ACCF-0CDB2C00D2D7}" WorkUnitID="{6BC8DCF7-460D-4409-B19C-408CDABF5FCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Fades" ID="{F589CEE5-B8F8-4BA7-B72B-FEFD96DCA684}" ShortID="604740639">
 					<ChildrenList>
 						<Event Name="FadeOut" ID="{4EAE6C8F-FDAA-4F42-A1C1-FAB13C3A15CD}">
 							<ChildrenList>
-								<Action Name="" ID="{5011283E-2B57-40A9-B7D7-DF2C25DAD5E5}" ShortID="1066378661">
+								<Action Name="" ID="{6AA3CFD1-FB45-436F-B131-0EA72D7EFFAC}" ShortID="476383078">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="11"/>
-										<Property Name="Delay" Type="Real64" Value="5"/>
-										<Property Name="Volume" Type="Real64" Value="-200"/>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="Lowpass" Type="int16" Value="100"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -305,9 +332,10 @@
 						</Event>
 						<Event Name="FadeIn" ID="{2676753F-7CB7-451D-92BF-B117C4678EAE}">
 							<ChildrenList>
-								<Action Name="" ID="{29754C57-CDD3-4794-A122-7319BC57B280}" ShortID="338348295">
+								<Action Name="" ID="{E9F62901-E071-4AE1-960A-48F7BCF8F302}" ShortID="753831773">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
 										<Property Name="FadeTime" Type="Real64" Value="5"/>
 									</PropertyList>
 									<ReferenceList>
@@ -357,7 +385,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Flashback" ID="{7D0E2AE5-FB26-4877-A88F-B2777284AA6C}"/>
+						<Event Name="FadeOutEnd" ID="{818FA2C2-BD90-4DF0-A12D-53C9DA8093CA}">
+							<ChildrenList>
+								<Action Name="" ID="{3E2FDFA8-2EBC-43A7-8CED-0DB7D0A8C36A}" ShortID="631518644">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="20"/>
+										<Property Name="Highpass" Type="int16" Value="100"/>
+										<Property Name="Lowpass" Type="int16" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiances" ID="{21999C21-7FB5-4DE3-BC1E-8261DAC048F6}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1D5E8D8D-C70A-418D-B860-EDE52926DAF0}" ShortID="400417422">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="29"/>
+										<Property Name="Delay" Type="Real64" Value="10"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+										<Property Name="Highpass" Type="int16" Value="100"/>
+										<Property Name="Lowpass" Type="int16" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{8B354520-404F-4E58-85C7-F5F2EAF09FE3}" WorkUnitID="{1CF03F3A-BE22-4D1A-AEFC-7F525C2BC450}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

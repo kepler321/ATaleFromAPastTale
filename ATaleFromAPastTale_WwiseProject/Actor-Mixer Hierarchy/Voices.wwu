@@ -43,6 +43,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_02" ID="{38649BE7-EB3C-4368-B233-4B7D355EE5D8}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.419814416994869"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.71703067191789"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -74,6 +79,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_09" ID="{15BA6C76-4D2F-44BC-A64B-40BF3BC55637}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.38383047566005"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.71259362029412"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -105,6 +115,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_05" ID="{9A1C0699-4F30-4B53-A895-15A97622675F}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.225099057166727"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16.1821211096524"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -136,6 +151,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_03" ID="{A20F7603-835A-4348-8170-5BC7504C9800}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.300945783771597"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="17.3454206282903"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -167,6 +187,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_14" ID="{815BB2FE-6340-43D4-9F16-9719E5012265}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.339225046743843"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.654522019334"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -198,6 +223,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_15" ID="{2CB3794B-A6A1-44BF-91B0-12AAC0FC4A5F}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.251888650196918"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="18.8916487647691"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -229,6 +259,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_11" ID="{0700AF6E-170E-4664-811D-6CDCD14B961F}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.159929453262786"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.94737654320988"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -260,6 +295,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_13" ID="{C6324A87-A728-48C2-9C1C-3AA58B3FB63B}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0935302542069465"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -291,6 +330,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_04" ID="{A0B22500-D2F9-4507-8AB7-C5CA0F7D5DFA}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.2998673933511"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="19.2814733924759"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -322,6 +366,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_12" ID="{C05C48BA-846B-463B-93CA-497F80C1E436}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.425312122899841"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="11.5943783068783"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -353,6 +402,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_08" ID="{7E54C002-89E7-4AB8-ACBB-77C4D23902B0}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.419815278938085"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.3258965535532"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -384,6 +438,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_01" ID="{3C8FBA7E-7B78-4D47-8CD0-0688BE67B72C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.419814416994868"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="46.1795858694355"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>NAR_01.wav</AudioFile>
 											<MediaIDList>
@@ -410,6 +469,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_07" ID="{C85906E1-E1E9-4B53-993D-8E2A90AA61E5}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.054975931893225"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.0541007280105"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -441,6 +505,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_06" ID="{32DF673D-610A-4C40-90B9-D8365824D371}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.366006981740065"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.87592801448065"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -472,6 +541,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="NAR_10" ID="{7FFCE999-DAC5-4001-945B-6908D614038A}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.303866213151927"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.69393334526793"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB1A61FE-40D8-4F2E-A808-F222FAA60A82}"/>
@@ -511,6 +585,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="GPA01" ID="{35E3A89E-4F09-453B-8BAA-22305D04FA13}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.091514898357"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.12461132991208"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>GPA01.wav</AudioFile>
 											<MediaIDList>
@@ -537,6 +616,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="RAD01" ID="{4A0CD0F8-3E99-4171-8A17-6F5D786DC2D7}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.31186226147379"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.63127952155521"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.69569273713384"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.0577911710493"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>RAD01.wav</AudioFile>
 											<MediaIDList>
@@ -563,6 +649,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="WOM01" ID="{222CAAD3-0D14-4AD8-B45C-B6B958F3783B}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.513383458646617"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.52775689223058"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>WOM01.wav</AudioFile>
 											<MediaIDList>
@@ -589,6 +680,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="MOU01" ID="{C2B8211D-9C87-4269-8F1A-3BA69B650C7F}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.526766917293233"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.52"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>MOU01.wav</AudioFile>
 											<MediaIDList>
@@ -615,6 +711,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="HNS01" ID="{9719B898-3835-4A88-B79D-806EE1A51141}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.16679861028232"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.22585498136877"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>HNS01.wav</AudioFile>
 											<MediaIDList>
@@ -641,6 +742,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="WOM02" ID="{FA4743E9-C815-42A7-8438-8C5C85450155}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.603233082706767"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.26766917293233"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>WOM02.wav</AudioFile>
 											<MediaIDList>

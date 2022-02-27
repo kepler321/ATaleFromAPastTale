@@ -7,7 +7,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Items" ID="{4C57D70F-E121-460C-A130-04B0A8DB8AF1}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Character" ID="{2E7BE4BE-5330-4844-9A14-2938F8638184}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Paths" ID="{15978F72-4ED8-49F6-9C35-F5C635EE7ECB}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fades" ID="{F589CEE5-B8F8-4BA7-B72B-FEFD96DCA684}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire" ID="{10126488-4AA4-4D03-8902-B45F52720C71}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

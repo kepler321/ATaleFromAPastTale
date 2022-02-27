@@ -274,6 +274,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Paths" ID="{15978F72-4ED8-49F6-9C35-F5C635EE7ECB}" ShortID="742727178">
+					<ChildrenList>
+						<Event Name="LeftPath" ID="{1949EF78-F985-42C2-AC9F-58381A8DCCBB}">
+							<ChildrenList>
+								<Action Name="" ID="{E45EC6FB-AF39-4831-A5F4-64F3375D2055}" ShortID="171579828">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NAR_02" ID="{74F90254-55FF-4CE2-8277-9EC0C7DA42FF}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MiddlePath" ID="{17C92536-5B35-4B1F-8BA0-58B2FD2F7839}">
+							<ChildrenList>
+								<Action Name="" ID="{6B27E9D4-1949-4A37-A3D8-4344E025A0F5}" ShortID="568818090">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NAR_03" ID="{0B498AEA-0F06-4CB2-9D88-CB26171348D7}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

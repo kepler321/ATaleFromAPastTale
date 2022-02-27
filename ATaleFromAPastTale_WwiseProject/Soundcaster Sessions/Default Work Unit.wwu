@@ -10,7 +10,7 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="PillBottle" ID="{55217109-FF9D-45DE-A19A-2325960572DA}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<ObjectRef Name="WOM_01" ID="{ABC0E6BC-E643-48CE-832F-6CF2C4FEEDA0}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
@@ -22,24 +22,36 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="FilterAmbOff" ID="{0F71EDC2-F554-4E2C-A167-C979D563919D}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<ObjectRef Name="FadeIn" ID="{2676753F-7CB7-451D-92BF-B117C4678EAE}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EndMusic" ID="{7B1C9C30-7043-44AA-8CFD-434748456700}" WorkUnitID="{762723DA-5A7F-4C35-A835-DB9ED5A2ECB3}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Rain" ID="{8802BDF6-B9C2-4929-A3D6-E760BD466BC5}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="FilterAmbOn" ID="{859CD652-A108-446C-A5B7-80BA108492DD}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<ObjectRef Name="FadeOut" ID="{4EAE6C8F-FDAA-4F42-A1C1-FAB13C3A15CD}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireLoop" ID="{FBA830DB-34EB-43E5-BC65-B838686D56CF}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="NAR_01" ID="{46770F7B-ABB7-4EAA-B084-45412754BB1C}" WorkUnitID="{7C2A5CB1-548F-47C5-8B63-AEC9F6F085AA}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="CricketBirds" ID="{9C83A11C-4097-407E-9152-50DBAA2DD652}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<ObjectRef Name="FadeOutEnd" ID="{818FA2C2-BD90-4DF0-A12D-53C9DA8093CA}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FirePickUp" ID="{23AF4754-2BE3-4AB8-B3AF-0BFB01343C3C}" WorkUnitID="{4423BB64-2842-4093-977E-829D38F4A0BD}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
