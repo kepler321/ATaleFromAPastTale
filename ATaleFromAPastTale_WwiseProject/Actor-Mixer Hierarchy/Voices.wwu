@@ -439,9 +439,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="NAR_01" ID="{3C8FBA7E-7B78-4D47-8CD0-0688BE67B72C}">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.419814416994868"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.553755287690123"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="46.1795858694355"/>
 											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>NAR_01.wav</AudioFile>
@@ -604,7 +603,10 @@
 								</Sound>
 								<Sound Name="RAD_01" ID="{60290BF1-72B5-4523-BF09-0E06F2E366AC}" ShortID="276430649">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -617,11 +619,11 @@
 									<ChildrenList>
 										<AudioFileSource Name="RAD01" ID="{4A0CD0F8-3E99-4171-8A17-6F5D786DC2D7}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.31186226147379"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.63127952155521"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.815639760777605"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.48734309318269"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.69569273713384"/>
-												<Property Name="TrimEnd" Type="Real64" Value="14.0577911710493"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.215904642558778"/>
+												<Property Name="TrimEnd" Type="Real64" Value="13.6739606953893"/>
 											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>RAD01.wav</AudioFile>

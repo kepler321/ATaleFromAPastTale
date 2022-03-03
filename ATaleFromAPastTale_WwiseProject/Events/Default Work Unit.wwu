@@ -320,7 +320,8 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="26"/>
 										<Property Name="FadeInCurve" Type="int16" Value="1"/>
-										<Property Name="Lowpass" Type="int16" Value="100"/>
+										<Property Name="Lowpass" Type="int16" Value="55"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -336,7 +337,8 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="26"/>
 										<Property Name="FadeInCurve" Type="int16" Value="1"/>
-										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -353,6 +355,7 @@
 										<Property Name="ActionType" Type="int16" Value="26"/>
 										<Property Name="FadeInCurve" Type="int16" Value="1"/>
 										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -376,6 +379,7 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Lowpass" Type="int16" Value="36"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -394,6 +398,7 @@
 										<Property Name="FadeTime" Type="Real64" Value="20"/>
 										<Property Name="Highpass" Type="int16" Value="100"/>
 										<Property Name="Lowpass" Type="int16" Value="100"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

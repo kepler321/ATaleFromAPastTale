@@ -1060,6 +1060,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{324F7C07-42EB-41E9-A8EC-6E0516959576}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="12.3185571733567"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="30.322602272878"/>
@@ -1091,6 +1092,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{50263103-5C7B-4C19-BEAB-F77A155C8B69}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="1.42137198154115"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="12.7923478338704"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1124,6 +1126,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{DB7656EE-4C97-485E-9C51-B372C8C137C4}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="1.42137198154115"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="14.6875104759253"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1157,6 +1160,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{353A5449-D2AF-4177-BBFB-93CDCBE8C5F2}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.947581321027442"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="17.0564637784939"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1190,6 +1194,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{ACC20CCB-2A02-435F-85E9-3DA2C3324139}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="2.36895330256857"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="9.00202254976065"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1223,6 +1228,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{0F2CE5F4-B852-4C59-B2A1-33B42CC226E8}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="1.89516264205488"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="8.05444122873322"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1256,6 +1262,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{13ED9739-3E71-427D-82F9-2C6F73779896}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="17.5302544390076"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="189.990054866001"/>
@@ -1288,6 +1295,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{D60FC825-D99F-4665-BF3C-0C21ED8D29C1}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="2.36895330256857"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="16.5826731179801"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1321,6 +1329,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Thunder" ID="{65C2E28F-CB1A-4A97-85A0-6F33E0A8E046}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="FadeInDuration" Type="Real64" Value="2.36895330256857"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="27.4798583097956"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1340,6 +1349,14 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{25CC6BF3-507C-4D40-B0EA-EA9653DA8F0F}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-22.9812029519204"/>
+										<Property Name="PanY" Type="Real64" Value="55.9704681011057"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
