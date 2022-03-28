@@ -56,7 +56,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Close" ID="{408570DC-4CA1-466F-AB27-A457FF120D3A}"/>
+						<CurrentStateRef Name="Far" ID="{61D5BD5D-A25A-433C-89C5-904C2540A11C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Wood" ID="{98F9F5BD-39CF-48E8-980D-8F3C4671475D}"/>
